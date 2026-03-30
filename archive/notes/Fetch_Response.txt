@@ -1,0 +1,213 @@
+{
+    "count": 23,
+    "items": [
+        {
+            "id": "1b676a9b-342a-433c-ba52-07ddf6e30eaf",
+            "dhVendorId": "ec0d3c95-f616-44fd-a196-a5da80616341",
+            "title": "Apple Royal Gala 1kg",
+            "slug": "apple-royal-gala-1kg",
+            "description": "",
+            "originalPrice": 9.99,
+            "price": 9.99,
+            "discount": 0,
+            "discountPercentage": 0,
+            "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a12b.jpeg",
+            "images": [
+                "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a12b.jpeg"
+            ],
+            "stockAmount": 4,
+            "categoryId": "ef0d7c90-ada5-467c-98b3-bd46854f0358",
+            "sku": "101717"
+        },
+        {
+            "id": "c7ba315a-4d5e-4353-bbc7-f41755c67445",
+            "dhVendorId": "ec0d3c95-f616-44fd-a196-a5da80616341",
+            "title": "Apple Green Granny Smith 1kg",
+            "slug": "apple-green-granny-smith-1kg",
+            "description": "",
+            "originalPrice": 11.99,
+            "price": 11.99,
+            "discount": 0,
+            "discountPercentage": 0,
+            "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a13c.jpg",
+            "images": [
+                "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a13c.jpg"
+            ],
+            "stockAmount": 4,
+            "categoryId": "ef0d7c90-ada5-467c-98b3-bd46854f0358",
+            "sku": "101646"
+        },
+        {
+            "id": "d73ceb9a-6604-4e85-9cf8-42ccfb555814",
+            "dhVendorId": "ec0d3c95-f616-44fd-a196-a5da80616341",
+            "title": "Pear with Blush 1kg",
+            "slug": "pear-with-blush-1kg",
+            "description": "",
+            "originalPrice": 12.99,
+            "price": 12.99,
+            "discount": 0,
+            "discountPercentage": 0,
+            "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a133.jpg",
+            "images": [
+                "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a133.jpg"
+            ],
+            "stockAmount": 4,
+            "categoryId": "ef0d7c90-ada5-467c-98b3-bd46854f0358",
+            "sku": "101649"
+        },
+        {
+            "id": "78b66637-4798-4e50-b48e-1c7dcb9b8689",
+            "dhVendorId": "ec0d3c95-f616-44fd-a196-a5da80616341",
+            "title": "TerraViva Red Apple Kids Bag, South Africa, 1kg",
+            "slug": "terraviva-red-apple-kids-bag-south-africa-1kg",
+            "description": "•Sourced fresh to maintain delicious taste and texture\n•Prepare salads or blend them into a smoothie\n•Contains essential nutrients to fulfil your dietary requirements\n•Offers sweet, crisp, and juicy flavour",
+            "originalPrice": 10.99,
+            "price": 10.99,
+            "discount": 0,
+            "discountPercentage": 0,
+            "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/642a9d4fd1bc50e31c1a8819.jpg",
+            "images": [
+                "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/642a9d4fd1bc50e31c1a8819.jpg"
+            ],
+            "stockAmount": 20,
+            "categoryId": "ef0d7c90-ada5-467c-98b3-bd46854f0358",
+            "sku": "6299200049559"
+        },
+        {
+            "id": "4d6abf9f-cde2-4b78-9817-e46ae2d5fa9a",
+            "dhVendorId": "ec0d3c95-f616-44fd-a196-a5da80616341",
+            "title": "Natur's Dried Apple Rings, 100g",
+            "slug": "naturs-dried-apple-rings-100g",
+            "description": "",
+            "originalPrice": 4.99,
+            "price": 4.99,
+            "discount": 0,
+            "discountPercentage": 0,
+            "image": "https://talabat.dhmedia.io/image/product-information-management/68e4bd1bffe9c182d0827b85.jpg",
+            "images": [
+                "https://talabat.dhmedia.io/image/product-information-management/68e4bd1bffe9c182d0827b85.jpg"
+            ],
+            "stockAmount": 20,
+            "categoryId": "028c231a-bf3a-428d-a7c9-a1df63f6cceb",
+            "sku": "6299200063043"
+        },
+        {
+            "id": "6f8d9e45-5d5b-433e-b848-68b0c27039c5",
+            "dhVendorId": "ec0d3c95-f616-44fd-a196-a5da80616341",
+            "title": "B'adore Organic Apple Baby Biscuits, 125g",
+            "slug": "badore-organic-apple-baby-biscuits-125g",
+            "description": "",
+            "originalPrice": 6.99,
+            "price": 6.99,
+            "discount": 0,
+            "discountPercentage": 0,
+            "image": "https://talabat.dhmedia.io/image/product-information-management/6954ccc9e7fb293da1cfd270.jpg",
+            "images": [
+                "https://talabat.dhmedia.io/image/product-information-management/6954ccc9e7fb293da1cfd270.jpg"
+            ],
+            "stockAmount": 20,
+            "categoryId": "cf3cc0d5-fbb6-4373-9f10-34e9ace9b1be",
+            "sku": "6299200062275"
+        },
+        {
+            "id": "a59b8a15-c0b2-413e-93fa-bcd1c46d144e",
+            "dhVendorId": "ec0d3c95-f616-44fd-a196-a5da80616341",
+            "title": "B'adore Organic Apple & Mango Baby Food, 100g",
+            "slug": "badore-organic-apple-mango-baby-food-100g",
+            "description": "",
+            "originalPrice": 2.99,
+            "price": 2.99,
+            "discount": 0,
+            "discountPercentage": 0,
+            "image": "https://talabat.dhmedia.io/image/product-information-management/686cf2dbc231e86fdf8e09de.jpg",
+            "images": [
+                "https://talabat.dhmedia.io/image/product-information-management/686cf2dbc231e86fdf8e09de.jpg"
+            ],
+            "stockAmount": 20,
+            "categoryId": "cbece95d-a351-45e3-9f9f-fd1d2b54a921",
+            "sku": "6299200057202"
+        },
+        {
+            "id": "d012f1e6-5cce-4b99-a629-5498560c5437",
+            "dhVendorId": "ec0d3c95-f616-44fd-a196-a5da80616341",
+            "title": "Ora Dishwashing Liquid Green Apple, Italy, 1L",
+            "slug": "ora-dishwashing-liquid-green-apple-italy-1l",
+            "description": "- Expertly formulated to cut through tough grease, ensuring your dishes are sparklingly clean.\n- Infused with a fresh green apple scent, leaving your kitchen smelling crisp and refreshing.\n- Packaged in a 1L bottle for prolonged use, providing excellent value for money.\n- Made with a gentle non-irritating formula, making it safe and comfortable for all skin types.",
+            "originalPrice": 4.99,
+            "price": 4.99,
+            "discount": 0,
+            "discountPercentage": 0,
+            "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/6299200034746.jpg",
+            "images": [
+                "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/6299200034746.jpg"
+            ],
+            "stockAmount": 20,
+            "categoryId": "29f2956f-a0de-4086-8271-96c6bbf06149",
+            "sku": "6299200034746"
+        },
+        {
+            "id": "119399b7-29d4-43a7-b13d-b9ceb7cce335",
+            "dhVendorId": "ec0d3c95-f616-44fd-a196-a5da80616341",
+            "title": "B'adore Organic Apple Banana Peach Baby Food, 100g",
+            "slug": "badore-organic-apple-banana-peach-baby-food-100g",
+            "description": "",
+            "originalPrice": 3.99,
+            "price": 3.99,
+            "discount": 0,
+            "discountPercentage": 0,
+            "image": "https://talabat.dhmedia.io/image/product-information-management/686cf2dbc231e86fdf8e09e8.jpg",
+            "images": [
+                "https://talabat.dhmedia.io/image/product-information-management/686cf2dbc231e86fdf8e09e8.jpg"
+            ],
+            "stockAmount": 20,
+            "categoryId": "cbece95d-a351-45e3-9f9f-fd1d2b54a921",
+            "sku": "6299200057226"
+        },
+        {
+            "id": "3220b9d8-16f1-423b-b772-6f49219ebc61",
+            "dhVendorId": "ec0d3c95-f616-44fd-a196-a5da80616341",
+            "title": "Askania Apple Non-Alcoholic Malt Beverage",
+            "slug": "askania-apple-non-alcoholic-malt-beverage",
+            "description": "",
+            "originalPrice": 3.49,
+            "price": 3.49,
+            "discount": 0,
+            "discountPercentage": 0,
+            "image": "https://talabat.dhmedia.io/image/product-information-management/688b0e396047ad341ec5e983.jpg",
+            "images": [
+                "https://talabat.dhmedia.io/image/product-information-management/688b0e396047ad341ec5e983.jpg"
+            ],
+            "stockAmount": 20,
+            "categoryId": "e314ce60-e67a-4057-9221-79b34d6e1495",
+            "sku": "3700435107929"
+        }
+    ],
+    "categories": [
+        {
+            "id": "all",
+            "name": "All",
+            "slug": "all"
+        },
+        {
+            "id": "4066eaec-df43-47a8-a40c-e0a26d708de2",
+            "name": "Baby Corner ",
+            "slug": "baby-corner"
+        },
+        {
+            "id": "af4d99ff-b649-4cf7-b57c-4fc3f6c33e28",
+            "name": "Fruit & Veg ",
+            "slug": "fruit-veg"
+        },
+        {
+            "id": "f70d80d0-1542-47bb-b6a2-c23ee2b5c98e",
+            "name": "Beverages ",
+            "slug": "beverages"
+        },
+        {
+            "id": "93969527-a633-43a9-ad22-f18e53052623",
+            "name": "Cleaning & Laundry ",
+            "slug": "cleaning-laundry"
+        }
+    ],
+    "searchRequestId": "38b26319-2bb5-407e-9e61-11e4cc30fa80"
+}

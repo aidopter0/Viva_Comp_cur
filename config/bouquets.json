@@ -1,0 +1,35 @@
+{
+  "bouquets": [
+    {
+      "id": "daily_essentials",
+      "name": "Daily Essentials (KVIs)",
+      "purpose": "Price anchors: high-frequency, price-sensitive items",
+      "lines": [1, 8, 9, 10, 12, 13, 14, 25, 27, 39, 41, 47]
+    },
+    {
+      "id": "fresh_produce",
+      "name": "Fresh Produce & Perishables",
+      "purpose": "High volatility and quality variance",
+      "lines": [2, 5, 6, 11, 21, 22, 28, 30, 36, 44]
+    },
+    {
+      "id": "pantry_staples",
+      "name": "Pantry & Bulk Staples",
+      "purpose": "Volume drivers and promo-led categories",
+      "lines": [3, 4, 17, 19, 31, 32, 33, 34, 35, 37, 42, 46, 48]
+    },
+    {
+      "id": "household",
+      "name": "Household & Disposables",
+      "purpose": "Margin / brand vs private label",
+      "lines": [15, 18, 24, 26, 38, 40, 43, 49]
+    },
+    {
+      "id": "convenience",
+      "name": "Convenience & Hydration",
+      "purpose": "Basket fillers and trip volume",
+      "lines": [7, 16, 20, 23, 29, 45]
+    }
+  ],
+  "notes": "Line numbers match config/key_items.txt (1-based, 49 lines). Yoghurt lines 12 and 39 are Daily Essentials. For basket sums, dedupe by normalized raw to avoid double-counting duplicate list entries."
+}

@@ -1,0 +1,4975 @@
+[
+  {
+    "line": 1,
+    "raw": "EGGS 2White eggs 30's (S)30pc",
+    "label": "White Eggs Small 30 Pack",
+    "search_query": "white eggs small 30pack",
+    "expected_match": "White Eggs Small 30 Pack",
+    "search_queries_tried": [
+      "white eggs small 30pack"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "TerraViva Cage Free Liquid Egg White, France, 500g",
+        "slug": "terraviva-cage-free-liquid-egg-white-france-500g",
+        "sku": "6299200047067",
+        "price": 13.99,
+        "originalPrice": 13.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/64216a8f65f7adda46ec6443.jpg",
+        "match_score": 0.1207
+      }
+    ],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio.",
+    "gemini": {
+      "choice_index": 0,
+      "reason": "Liquid egg whites are a different product category than shell eggs",
+      "product": null,
+      "skipped": true
+    }
+  },
+  {
+    "line": 2,
+    "raw": "BANANABanana Premium1kg",
+    "label": "Banana Premium 1 kg",
+    "search_query": "banana 1kg",
+    "expected_match": "Banana Premium 1 kg",
+    "search_queries_tried": [
+      "banana 1kg"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Xhc Banana Conditioner",
+        "slug": "xhc-banana-conditioner",
+        "sku": "5060120169310",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/5060120169310.jpg",
+        "match_score": 0.4781
+      },
+      {
+        "title": "Xhc Banana Shampoo 400Ml",
+        "slug": "xhc-banana-shampoo-400ml",
+        "sku": "5060120169303",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/5060120169303.jpg",
+        "match_score": 0.3378
+      },
+      {
+        "title": "Milba Banana Flavored Milk, Turkey, 180ml",
+        "slug": "milba-banana-flavored-milk-turkey-180ml",
+        "sku": "6299200052269",
+        "price": 1.29,
+        "originalPrice": 1.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_31_10/6299200052269.jpg",
+        "match_score": 0.3163
+      },
+      {
+        "title": "Wow Banana Bubble Tea, Taiwan, 235ml",
+        "slug": "wow-banana-bubble-tea-taiwan-235ml",
+        "sku": "4711476006255",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67efb56a0ab1693f1df89674.png",
+        "match_score": 0.3142
+      },
+      {
+        "title": "Pascual Banana Creamy Yoghurt, Spain, 188ml",
+        "slug": "pascual-banana-creamy-yoghurt-spain-188ml",
+        "sku": "8410128770099",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6784cc97caf9c153cd62293e.png",
+        "match_score": 0.3131
+      },
+      {
+        "title": "Pascual Creamy Pasteurized Banana Yogurt, 750ml",
+        "slug": "pascual-creamy-pasteurized-banana-yogurt-750ml",
+        "sku": "8410128416263",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68beca1f754b2cdae920337a.JPG",
+        "match_score": 0.306
+      },
+      {
+        "title": "Cipri Banana Juice, Cyprus, 1L",
+        "slug": "cipri-banana-juice-cyprus-1l",
+        "sku": "6299200054195",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE/Regular/6299200054195-1.png",
+        "match_score": 0.0624
+      },
+      {
+        "title": "Ba! Energy Bar Banana, Poland, 40g",
+        "slug": "ba-energy-bar-banana-poland-40g",
+        "sku": "5900749618991",
+        "price": 1.99,
+        "originalPrice": 1.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/65f2352660d824a27a10d2d8.JPG",
+        "match_score": 0.0554
+      },
+      {
+        "title": "Ba! Fit Grain Banana & Coconut, Poland, 250g",
+        "slug": "ba-fit-grain-banana-coconut-poland-250g",
+        "sku": "5900749641333",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/darkstores-eg/EGY_5900749641333.JPG",
+        "match_score": 0.0527
+      },
+      {
+        "title": "Asturiana Banana Flavor Kids Yogurt, Spain, 125g",
+        "slug": "asturiana-banana-flavor-kids-yogurt-spain-125g",
+        "sku": "8410297605024",
+        "price": 1.99,
+        "originalPrice": 1.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cf5886e5598cfe9e9a87.png",
+        "match_score": 0.0525
+      },
+      {
+        "title": "Albani Banana Flavor Sterilized Cream, UAE, 170g",
+        "slug": "albani-banana-flavor-sterilized-cream-uae-170g",
+        "sku": "6291106850451",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/67c83a7793205e2dde73a903.jpg",
+        "match_score": 0.0525
+      },
+      {
+        "title": "B'adore Organic Spelt & Banana Baby Biscuits, 125g",
+        "slug": "badore-organic-spelt-banana-baby-biscuits-125g",
+        "sku": "6299200062268",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6954ccc8e7fb293da1cfd26c.jpg",
+        "match_score": 0.0523
+      }
+    ],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio.",
+    "gemini": {
+      "choice_index": 0,
+      "reason": "No fresh bananas available among candidates",
+      "product": null,
+      "skipped": true
+    }
+  },
+  {
+    "line": 3,
+    "raw": "OILSunflower oil 5 L5L",
+    "label": "Sunflower Oil 5 L",
+    "search_query": "sunflower oil 5l",
+    "expected_match": "Sunflower Oil 5 L",
+    "search_queries_tried": [
+      "sunflower oil 5l"
+    ],
+    "match_score": 0.5961,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Dani Mackerel In Sunflower Oil, Morocco, 125g",
+        "slug": "dani-mackerel-in-sunflower-oil-morocco-125g",
+        "sku": "8410721111275",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336c63a18612bfbd97b59.jpg",
+        "match_score": 0.5961
+      },
+      {
+        "title": "Deep Blue Tuna Flakes Sunflower Oil, Thailand, 185g",
+        "slug": "deep-blue-tuna-flakes-sunflower-oil-thailand-185g",
+        "sku": "6299200047371",
+        "price": 5.49,
+        "originalPrice": 5.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336cf3a18612bfbd97be7.jpg",
+        "match_score": 0.5843
+      },
+      {
+        "title": "Deep Blue Tuna Solid in Sunflower Oil, Thailand, 185g",
+        "slug": "deep-blue-tuna-solid-in-sunflower-oil-thailand-185g",
+        "sku": "6299200047395",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336cf3a18612bfbd97be9.jpg",
+        "match_score": 0.5808
+      },
+      {
+        "title": "Deep Blue Tuna Shredded in Sunflower Oil, Thailand, 400g",
+        "slug": "deep-blue-tuna-shredded-in-sunflower-oil-thailand-400g",
+        "sku": "6299200055383",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/65e188193d0baf334d8b6334.jpg",
+        "match_score": 0.576
+      },
+      {
+        "title": "Deep Blue Albacore White Meat Tuna in Sunflower Oil, Thailand, 170g",
+        "slug": "deep-blue-albacore-white-meat-tuna-in-sunflower-oil-thailand-170g",
+        "sku": "6299200032735",
+        "price": 7.49,
+        "originalPrice": 7.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/65f2338860d824a27a10ccc5.jpeg",
+        "match_score": 0.5613
+      },
+      {
+        "title": "B'adore Baby Oil Wipes, China, 70 Pieces",
+        "slug": "badore-baby-oil-wipes-china-70-pieces",
+        "sku": "6299200057981",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6756f3452ffa04f99e6430d2.png",
+        "match_score": 0.4157
+      },
+      {
+        "title": "Ama Pure Sunflower Oil, Ukraine, 3L",
+        "slug": "ama-pure-sunflower-oil-ukraine-3l",
+        "sku": "6299200036580",
+        "price": 19.99,
+        "originalPrice": 20.99,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/61f267989bc32e5f4b1d89f7.jpg",
+        "match_score": 0.363
+      },
+      {
+        "title": "Banga Smoked Herring Fillet in Oil, Latvia, 170g",
+        "slug": "banga-smoked-herring-fillet-in-oil-latvia-170g",
+        "sku": "4751017400692",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/109401.png",
+        "match_score": 0.3153
+      },
+      {
+        "title": "Deep Blue Sardines in Vegetable Oil, Morocco, 125g",
+        "slug": "deep-blue-sardines-in-vegetable-oil-morocco-125g",
+        "sku": "6299200051569",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/666716dfb758b9cc5d815b3c.jpg",
+        "match_score": 0.3127
+      },
+      {
+        "title": "Deep Blue Tuna Solid in Extra Virgin Olive Oil, Thailand, 185g",
+        "slug": "deep-blue-tuna-solid-in-extra-virgin-olive-oil-thailand-185g",
+        "sku": "6299200056120",
+        "price": 7.49,
+        "originalPrice": 7.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE_Images/6299200056120.png",
+        "match_score": 0.3069
+      },
+      {
+        "title": "Deep Blue Sardines in Vegetable Oil with Chili, Morocco, 125g",
+        "slug": "deep-blue-sardines-in-vegetable-oil-with-chili-morocco-125g",
+        "sku": "6299200051576",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/666716cf8e5112d4c722a02c.jpg",
+        "match_score": 0.3012
+      },
+      {
+        "title": "Deep Blue Salmon in Oil with Chili, Latvia, 120g",
+        "slug": "deep-blue-salmon-in-oil-with-chili-latvia-120g",
+        "sku": "6299200053938",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/673b2d7befda97f5163e860d.png",
+        "match_score": 0.299
+      }
+    ],
+    "matches": [
+      {
+        "title": "Deep Blue Tuna Flakes Sunflower Oil, Thailand, 185g",
+        "slug": "deep-blue-tuna-flakes-sunflower-oil-thailand-185g",
+        "sku": "6299200047371",
+        "price": 5.49,
+        "originalPrice": 5.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336cf3a18612bfbd97be7.jpg",
+        "match_score": 0.5843
+      },
+      {
+        "title": "Deep Blue Tuna Solid in Sunflower Oil, Thailand, 185g",
+        "slug": "deep-blue-tuna-solid-in-sunflower-oil-thailand-185g",
+        "sku": "6299200047395",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336cf3a18612bfbd97be9.jpg",
+        "match_score": 0.5808
+      },
+      {
+        "title": "Dani Mackerel In Sunflower Oil, Morocco, 125g",
+        "slug": "dani-mackerel-in-sunflower-oil-morocco-125g",
+        "sku": "8410721111275",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336c63a18612bfbd97b59.jpg",
+        "match_score": 0.5961
+      }
+    ],
+    "product": {
+      "title": "Deep Blue Tuna Flakes Sunflower Oil, Thailand, 185g",
+      "slug": "deep-blue-tuna-flakes-sunflower-oil-thailand-185g",
+      "sku": "6299200047371",
+      "price": 5.49,
+      "originalPrice": 5.49,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/product-information-management/683336cf3a18612bfbd97be7.jpg"
+    },
+    "gemini": {
+      "choice_index": 7,
+      "reason": "Correct product category and compatible although smaller size (3L vs 5L)",
+      "product": {
+        "title": "Ama Pure Sunflower Oil, Ukraine, 3L",
+        "slug": "ama-pure-sunflower-oil-ukraine-3l",
+        "sku": "6299200036580",
+        "price": 19.99,
+        "originalPrice": 20.99,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/61f267989bc32e5f4b1d89f7.jpg",
+        "match_score": 0.363,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 4,
+    "raw": "RICEJasmine Rice5kg",
+    "label": "Jasmine Rice 5 kg",
+    "search_query": "jasmine rice 5kg",
+    "expected_match": "Jasmine Rice 5 kg",
+    "search_queries_tried": [
+      "jasmine rice 5kg"
+    ],
+    "match_score": 0.8613,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Silver Lotus Jasmine Rice, Vietnam, 5kg",
+        "slug": "silver-lotus-jasmine-rice-vietnam-5kg",
+        "sku": "6299200001298",
+        "price": 18.99,
+        "originalPrice": 19.94,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200001298.jpg",
+        "match_score": 0.8613
+      },
+      {
+        "title": "Silver Lotus Jasmine Rice Aaa, Vietnam, 5kg",
+        "slug": "silver-lotus-jasmine-rice-aaa-vietnam-5kg",
+        "sku": "6299200045506",
+        "price": 16.99,
+        "originalPrice": 16.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_Supermarket/6299200045506.jpg",
+        "match_score": 0.8465
+      },
+      {
+        "title": "Ama Basmati Rice, India, 5kg",
+        "slug": "ama-basmati-rice-india-5kg",
+        "sku": "6299200046749",
+        "price": 19.99,
+        "originalPrice": 20.99,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67c83a6393205e2dde73a8bd.jpg",
+        "match_score": 0.65
+      },
+      {
+        "title": "Ama Sona Masoori Rice, India, 5kg",
+        "slug": "ama-sona-masoori-rice-india-5kg",
+        "sku": "6299200051392",
+        "price": 18.99,
+        "originalPrice": 19.94,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68837edc8b4d17c9361acd41.jpg",
+        "match_score": 0.6121
+      },
+      {
+        "title": "Silver Lotus Calrose Rice, Vietnam, 5kg",
+        "slug": "silver-lotus-calrose-rice-vietnam-5kg",
+        "sku": "6299200057936",
+        "price": 19.99,
+        "originalPrice": 20.99,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6703a11ffc172a95c184be35.png",
+        "match_score": 0.5918
+      },
+      {
+        "title": "Golden Grain Rozana Basmati Rice, India, 5kg",
+        "slug": "golden-grain-rozana-basmati-rice-india-5kg",
+        "sku": "8906001091219",
+        "price": 24.99,
+        "originalPrice": 26.24,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67c99ba193205e2dde74dbc3.png",
+        "match_score": 0.5902
+      },
+      {
+        "title": "Ruchi Palakkadan Matta Rice, India, 5kg",
+        "slug": "ruchi-palakkadan-matta-rice-india-5kg",
+        "sku": "8908015696008",
+        "price": 14.99,
+        "originalPrice": 14.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/Change-Management/Viva/8908015696008-PhotoRoom.png-PhotoRoom.png",
+        "match_score": 0.5786
+      },
+      {
+        "title": "Golden Grain Premium 1121 Steam Basmati Rice, India, 5kg",
+        "slug": "golden-grain-premium-1121-steam-basmati-rice-india-5kg",
+        "sku": "8906001090137",
+        "price": 34.99,
+        "originalPrice": 36.74,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67c83a9693205e2dde73aa8c.jpg",
+        "match_score": 0.5633
+      },
+      {
+        "title": "Golden Grain 1121 Premium White Sella Basmati Rice, India, 5kg",
+        "slug": "golden-grain-1121-premium-white-sella-basmati-rice-india-5kg",
+        "sku": "8906001090939",
+        "price": 26.99,
+        "originalPrice": 28.34,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67c83a9893205e2dde73aa8e.jpg",
+        "match_score": 0.5531
+      },
+      {
+        "title": "Naturs Faste Of Nature Green Tea Jasmine, Sri Lanka, 20 Bags",
+        "slug": "naturs-faste-of-nature-green-tea-jasmine-sri-lanka-20-bags",
+        "sku": "6299200024921",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/65f2508b60d824a27a113c49.JPG",
+        "match_score": 0.1698
+      },
+      {
+        "title": "Silver Lotus Fragrant Rice, Vietnam",
+        "slug": "silver-lotus-fragrant-rice-vietnam",
+        "sku": "6299200001281",
+        "price": 18.99,
+        "originalPrice": 19.94,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200001281.jpg",
+        "match_score": 0.1643
+      },
+      {
+        "title": "Ama Basmati Rice, India, 2kg",
+        "slug": "ama-basmati-rice-india-2kg",
+        "sku": "6299200050128",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/6299200050128.jpeg",
+        "match_score": 0.025
+      }
+    ],
+    "matches": [
+      {
+        "title": "Silver Lotus Jasmine Rice Aaa, Vietnam, 5kg",
+        "slug": "silver-lotus-jasmine-rice-aaa-vietnam-5kg",
+        "sku": "6299200045506",
+        "price": 16.99,
+        "originalPrice": 16.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_Supermarket/6299200045506.jpg",
+        "match_score": 0.8465
+      },
+      {
+        "title": "Silver Lotus Jasmine Rice, Vietnam, 5kg",
+        "slug": "silver-lotus-jasmine-rice-vietnam-5kg",
+        "sku": "6299200001298",
+        "price": 18.99,
+        "originalPrice": 19.94,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200001298.jpg",
+        "match_score": 0.8613
+      },
+      {
+        "title": "Ama Basmati Rice, India, 5kg",
+        "slug": "ama-basmati-rice-india-5kg",
+        "sku": "6299200046749",
+        "price": 19.99,
+        "originalPrice": 20.99,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67c83a6393205e2dde73a8bd.jpg",
+        "match_score": 0.65
+      }
+    ],
+    "product": {
+      "title": "Silver Lotus Jasmine Rice Aaa, Vietnam, 5kg",
+      "slug": "silver-lotus-jasmine-rice-aaa-vietnam-5kg",
+      "sku": "6299200045506",
+      "price": 16.99,
+      "originalPrice": 16.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_Supermarket/6299200045506.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and weight",
+      "product": {
+        "title": "Silver Lotus Jasmine Rice, Vietnam, 5kg",
+        "slug": "silver-lotus-jasmine-rice-vietnam-5kg",
+        "sku": "6299200001298",
+        "price": 18.99,
+        "originalPrice": 19.94,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200001298.jpg",
+        "match_score": 0.8613,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 5,
+    "raw": "FRESH JUICESFresh orange juice 1L1L",
+    "label": "Fresh Orange Juice 1 L",
+    "search_query": "fresh orange juice 1l",
+    "expected_match": "Fresh Orange Juice 1 L",
+    "search_queries_tried": [
+      "fresh orange juice 1l"
+    ],
+    "match_score": 0.8992,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Cipri Fresh Orange Juice Bottle, UAE, 1L",
+        "slug": "cipri-fresh-orange-juice-bottle-uae-1l",
+        "sku": "6299200048651",
+        "price": 12.49,
+        "originalPrice": 12.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/63dbc562eddd5ba81773a0d8.jpg",
+        "match_score": 0.8992
+      },
+      {
+        "title": "Cipri Fresh Orange Juice, UAE, 330ml",
+        "slug": "cipri-fresh-orange-juice-uae-330ml",
+        "sku": "6299200048682",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/687ba87a63f3b2a164cbb573.jpg",
+        "match_score": 0.1085
+      },
+      {
+        "title": "Cipri Fresh Orange Juice, UAE, 500ml",
+        "slug": "cipri-fresh-orange-juice-uae-500ml",
+        "sku": "6299200048644",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/6299200048644.jpg",
+        "match_score": 0.1085
+      },
+      {
+        "title": "Cipri Orange Juice, Cyprus, 250ml",
+        "slug": "cipri-orange-juice-cyprus-250ml",
+        "sku": "6299200051835",
+        "price": 1.99,
+        "originalPrice": 1.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE/VIVA/6299200051835.png",
+        "match_score": 0.0778
+      }
+    ],
+    "matches": [
+      {
+        "title": "Cipri Fresh Orange Juice Bottle, UAE, 1L",
+        "slug": "cipri-fresh-orange-juice-bottle-uae-1l",
+        "sku": "6299200048651",
+        "price": 12.49,
+        "originalPrice": 12.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/63dbc562eddd5ba81773a0d8.jpg",
+        "match_score": 0.8992
+      }
+    ],
+    "product": {
+      "title": "Cipri Fresh Orange Juice Bottle, UAE, 1L",
+      "slug": "cipri-fresh-orange-juice-bottle-uae-1l",
+      "sku": "6299200048651",
+      "price": 12.49,
+      "originalPrice": 12.49,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://images.deliveryhero.io/image/product-information-management/63dbc562eddd5ba81773a0d8.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and volume",
+      "product": {
+        "title": "Cipri Fresh Orange Juice Bottle, UAE, 1L",
+        "slug": "cipri-fresh-orange-juice-bottle-uae-1l",
+        "sku": "6299200048651",
+        "price": 12.49,
+        "originalPrice": 12.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/63dbc562eddd5ba81773a0d8.jpg",
+        "match_score": 0.8992,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 6,
+    "raw": "TOMATO & PEPPERTomato1kg",
+    "label": "Tomato 1 kg",
+    "search_query": "tomato 1kg",
+    "expected_match": "Tomato 1 kg",
+    "search_queries_tried": [
+      "tomato 1kg"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Karma Sardine In Tomato Sauce, Morocco",
+        "slug": "karma-sardine-in-tomato-sauce-morocco",
+        "sku": "6111255760114",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/65f23f0460d824a27a10f960.JPG",
+        "match_score": 0.4293
+      },
+      {
+        "title": "Ama Tomato Ketchup, Belgium, 500ml",
+        "slug": "ama-tomato-ketchup-belgium-500ml",
+        "sku": "6299200002844",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/UAE/VIVA/6299200002844.jpg",
+        "match_score": 0.342
+      },
+      {
+        "title": "Remia Tomato Ketchup, Netherlands, 750ml",
+        "slug": "remia-tomato-ketchup-netherlands-750ml",
+        "sku": "8710448563334",
+        "price": 11.99,
+        "originalPrice": 11.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683472ffde1a5d2593413b0d.png",
+        "match_score": 0.318
+      },
+      {
+        "title": "Dani Mackerel In Tomato, Morocco, 125g",
+        "slug": "dani-mackerel-in-tomato-morocco-125g",
+        "sku": "8410721111282",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/683336d33a18612bfbd97c4e.jpg",
+        "match_score": 0.0554
+      },
+      {
+        "title": "Giovanni tomato paste, Italy, 400g",
+        "slug": "giovanni-tomato-paste-italy-400g",
+        "sku": "6299200036078",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA1/6299200036078.jpg",
+        "match_score": 0.055
+      },
+      {
+        "title": "Rosquisol Snack Tomato Bread, Spain, 150g",
+        "slug": "rosquisol-snack-tomato-bread-spain-150g",
+        "sku": "8436551190136",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/8436551190136.jpg",
+        "match_score": 0.0544
+      },
+      {
+        "title": "Terraviva Cherry Tomatoes UAE, 250g",
+        "slug": "terraviva-cherry-tomatoes-uae-250g",
+        "sku": "6299200061667",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f09e66274122eaf42b95ec.jpg",
+        "match_score": 0.0543
+      },
+      {
+        "title": "Giovanni Chopped Tomatoes, Italy, , 400g",
+        "slug": "giovanni-chopped-tomatoes-italy-400g",
+        "sku": "6299200036047",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/683337073a18612bfbd9818f.jpg",
+        "match_score": 0.0536
+      },
+      {
+        "title": "Freshly Pick Tomato Paste, China, 400g",
+        "slug": "freshly-pick-tomato-paste-china-400g",
+        "sku": "6299200049818",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336bc3a18612bfbd97060.jpg",
+        "match_score": 0.0536
+      },
+      {
+        "title": "Deep Blue Mackerel Tomato Sauce, China, 155g",
+        "slug": "deep-blue-mackerel-tomato-sauce-china-155g",
+        "sku": "6299200007207",
+        "price": 1.99,
+        "originalPrice": 1.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200007207.jpg",
+        "match_score": 0.0535
+      },
+      {
+        "title": "Deep Blue Sardine in tomato sauce, China, 155g",
+        "slug": "deep-blue-sardine-in-tomato-sauce-china-155g",
+        "sku": "6299200007146",
+        "price": 1.99,
+        "originalPrice": 1.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA1/6299200007146.jpg",
+        "match_score": 0.053
+      },
+      {
+        "title": "Balaji Potato Wafers - Tomato Twist, India, 135g",
+        "slug": "balaji-potato-wafers-tomato-twist-india-135g",
+        "sku": "8906010505219",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336c63a18612bfbd97b5e.jpg",
+        "match_score": 0.053
+      }
+    ],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio.",
+    "gemini": {
+      "choice_index": 0,
+      "reason": "No fresh whole tomatoes available in requested quantity",
+      "product": null,
+      "skipped": true
+    }
+  },
+  {
+    "line": 7,
+    "raw": "WATERBottle water6 x 1.5L",
+    "label": "Bottle Water 6 x 1.5 L",
+    "search_query": "bottle water 6 x 1.5l",
+    "expected_match": "Bottle Water 6 x 1.5 L",
+    "search_queries_tried": [
+      "bottle water 6 x 1.5l"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Sant'Anna Mineral Water, Italy, 6x1.5L",
+        "slug": "santanna-mineral-water-italy-6x15l",
+        "sku": "8020141810001",
+        "price": 12.99,
+        "originalPrice": 12.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/617e94068f2af88bdf5eb85b.jpg",
+        "match_score": 0.5092
+      },
+      {
+        "title": "Lake Bottle Water Pack, UAE, 12x500ml",
+        "slug": "lake-bottle-water-pack-uae-12x500ml",
+        "sku": "6299200000147",
+        "price": 3.49,
+        "originalPrice": 3.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images_2024/UAE_Images/6299200000147.png",
+        "match_score": 0.105
+      }
+    ],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio.",
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for pack size and volume",
+      "product": {
+        "title": "Sant'Anna Mineral Water, Italy, 6x1.5L",
+        "slug": "santanna-mineral-water-italy-6x15l",
+        "sku": "8020141810001",
+        "price": 12.99,
+        "originalPrice": 12.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/617e94068f2af88bdf5eb85b.jpg",
+        "match_score": 0.5092,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 8,
+    "raw": "MILK & YOGURTFull cream milk 2l2L",
+    "label": "Full Cream Milk 2 L",
+    "search_query": "full cream milk 2l",
+    "expected_match": "Full Cream Milk 2 L",
+    "search_queries_tried": [
+      "full cream milk 2l"
+    ],
+    "match_score": 0.8923,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Milba Full Cream Fresh Milk, UAE, 2L",
+        "slug": "milba-full-cream-fresh-milk-uae-2l",
+        "sku": "6299200051521",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/64804b712d4391fbaf711ab1.png",
+        "match_score": 0.8923
+      },
+      {
+        "title": "Milba Full Fat Fresh Milk, UAE, 1L",
+        "slug": "milba-full-fat-fresh-milk-uae-1l",
+        "sku": "6299200051507",
+        "price": 5.49,
+        "originalPrice": 5.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/109579.png",
+        "match_score": 0.0755
+      },
+      {
+        "title": "Milba Milk Uht Full Fat Original, Germany, 1L",
+        "slug": "milba-milk-uht-full-fat-original-germany-1l",
+        "sku": "6299200005708",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/687a151763f3b2a164caca39.jpg",
+        "match_score": 0.0644
+      },
+      {
+        "title": "Milba UHT Low Fat Milk, Germany, 1L",
+        "slug": "milba-uht-low-fat-milk-germany-1l",
+        "sku": "6299200005692",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/65f2305a60d824a27a10c07c.jpg",
+        "match_score": 0.0204
+      }
+    ],
+    "matches": [
+      {
+        "title": "Milba Full Cream Fresh Milk, UAE, 2L",
+        "slug": "milba-full-cream-fresh-milk-uae-2l",
+        "sku": "6299200051521",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/64804b712d4391fbaf711ab1.png",
+        "match_score": 0.8923
+      }
+    ],
+    "product": {
+      "title": "Milba Full Cream Fresh Milk, UAE, 2L",
+      "slug": "milba-full-cream-fresh-milk-uae-2l",
+      "sku": "6299200051521",
+      "price": 9.99,
+      "originalPrice": 9.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://images.deliveryhero.io/image/product-information-management/64804b712d4391fbaf711ab1.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and volume",
+      "product": {
+        "title": "Milba Full Cream Fresh Milk, UAE, 2L",
+        "slug": "milba-full-cream-fresh-milk-uae-2l",
+        "sku": "6299200051521",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/64804b712d4391fbaf711ab1.png",
+        "match_score": 0.8923,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 9,
+    "raw": "PROTEINSWhole chicken 900g900g",
+    "label": "Whole Chicken 900 g",
+    "search_query": "whole chicken 900g",
+    "expected_match": "Whole Chicken 900 g",
+    "search_queries_tried": [
+      "whole chicken 900g"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [],
+    "search_synonym": "frozen chicken griller 900g",
+    "scored_against": "frozen chicken griller 900g",
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio."
+  },
+  {
+    "line": 10,
+    "raw": "PROTEINSWhole chicken 1kg1000g",
+    "label": "Whole Chicken 1 kg",
+    "search_query": "whole chicken 1kg",
+    "expected_match": "Whole Chicken 1 kg",
+    "search_queries_tried": [
+      "whole chicken 1kg"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "D'Pollo Chicken Mortadella Plain, UAE",
+        "slug": "dpollo-chicken-mortadella-plain-uae",
+        "sku": "6299200036337",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68837ef18b4d17c9361ad465.jpg",
+        "match_score": 0.181
+      },
+      {
+        "title": "D'Pollo Chicken Mortadella Olive, UAE",
+        "slug": "dpollo-chicken-mortadella-olive-uae",
+        "sku": "6299200036351",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68837ef18b4d17c9361ad45a.jpg",
+        "match_score": 0.181
+      },
+      {
+        "title": "D'Pollo Chicken Mortadella Black Pepper, UAE",
+        "slug": "dpollo-chicken-mortadella-black-pepper-uae",
+        "sku": "6299200036344",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/688380818b4d17c9361b02f9.jpg",
+        "match_score": 0.1783
+      },
+      {
+        "title": "D'Pollo Chicken Sticks, UAE, 750g",
+        "slug": "dpollo-chicken-sticks-uae-750g",
+        "sku": "6299200051118",
+        "price": 19.99,
+        "originalPrice": 20.99,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/UAE/Regular/6299200051118.jpg",
+        "match_score": 0.0853
+      },
+      {
+        "title": "Adult Dry Cat Food Chicken, Beef & Vegetable, 1.4kg",
+        "slug": "adult-dry-cat-food-chicken-beef-vegetable-14kg",
+        "sku": "6299200061810",
+        "price": 16.99,
+        "originalPrice": 16.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/69970ce41c5f24936c89a980.jpg",
+        "match_score": 0.0754
+      },
+      {
+        "title": "Dolo Luncheon Chicken, France, 340g",
+        "slug": "dolo-luncheon-chicken-france-340g",
+        "sku": "3379670015520",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336bc3a18612bfbd9703a.jpg",
+        "match_score": 0.0239
+      },
+      {
+        "title": "D Pollo Chicken Fillet, UAE, 330g",
+        "slug": "d-pollo-chicken-fillet-uae-330g",
+        "sku": "6299200036153",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200036153.jpg",
+        "match_score": 0.0235
+      },
+      {
+        "title": "Cho Cho Chicken Samosa, UAE, 240g",
+        "slug": "cho-cho-chicken-samosa-uae-240g",
+        "sku": "6299200036849",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/687144f68b6ae261425ecbc2.jpg",
+        "match_score": 0.0235
+      },
+      {
+        "title": "D'Pollo Fresh Chicken Hotdog, UAE, 400g",
+        "slug": "dpollo-fresh-chicken-hotdog-uae-400g",
+        "sku": "6299200039550",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/688383128b4d17c9361b4589.jpg",
+        "match_score": 0.0231
+      },
+      {
+        "title": "D'Pollo Zinger Chicken Strips, UAE, 300g",
+        "slug": "dpollo-zinger-chicken-strips-uae-300g",
+        "sku": "6299200051057",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Images/6299200051057.jpg",
+        "match_score": 0.0229
+      },
+      {
+        "title": "Yuhor Delicata Chicken Pate, Serbia, 95g",
+        "slug": "yuhor-delicata-chicken-pate-serbia-95g",
+        "sku": "8600084000105",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/683336f23a18612bfbd97f16.jpg",
+        "match_score": 0.0229
+      },
+      {
+        "title": "D'Pollo Chicken Luncheon Meat, 320g",
+        "slug": "dpollo-chicken-luncheon-meat-320g",
+        "sku": "6299200058315",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/693820d8e6d1e465f2ab2845.jpg",
+        "match_score": 0.0229
+      }
+    ],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio.",
+    "gemini": {
+      "choice_index": 0,
+      "reason": "No whole chicken available; candidates are processed meats or cat food",
+      "product": null,
+      "skipped": true
+    }
+  },
+  {
+    "line": 11,
+    "raw": "APPLE & PEARApple Royal Gala1kg",
+    "label": "Apple Royal Gala 1 kg",
+    "search_query": "apple royal gala 1kg",
+    "expected_match": "Apple Royal Gala 1 kg",
+    "search_queries_tried": [
+      "apple royal gala 1kg"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Apple Green Granny Smith 1kg",
+        "slug": "apple-green-granny-smith-1kg",
+        "sku": "101646",
+        "price": 11.99,
+        "originalPrice": 11.99,
+        "discountPercentage": 0,
+        "stockAmount": 4,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a13c.jpg",
+        "match_score": 0.5292
+      }
+    ],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio.",
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Compatible fruit category and exact weight match",
+      "product": {
+        "title": "Apple Green Granny Smith 1kg",
+        "slug": "apple-green-granny-smith-1kg",
+        "sku": "101646",
+        "price": 11.99,
+        "originalPrice": 11.99,
+        "discountPercentage": 0,
+        "stockAmount": 4,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a13c.jpg",
+        "match_score": 0.5292,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 12,
+    "raw": "MILK & YOGURTFull cream yoghurt 1kg1kg",
+    "label": "Full Cream Yoghurt 1 kg",
+    "search_query": "full cream yoghurt 1kg",
+    "expected_match": "Full Cream Yoghurt 1 kg",
+    "search_queries_tried": [
+      "full cream yoghurt 1kg"
+    ],
+    "match_score": 0.8984,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Milba Full Cream Natural Yoghurt, UAE, 1kg",
+        "slug": "milba-full-cream-natural-yoghurt-uae-1kg",
+        "sku": "6299200051545",
+        "price": 4.49,
+        "originalPrice": 4.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/109583.png",
+        "match_score": 0.8984
+      },
+      {
+        "title": "Movenpick Plain Greek Style Yoghurt, Germany, 400g",
+        "slug": "movenpick-plain-greek-style-yoghurt-germany-400g",
+        "sku": "4002334115401",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cea786e5598cfe9e93d4.png",
+        "match_score": 0.0181
+      },
+      {
+        "title": "Movenpick Yogurt Greek Plain, Germany, 100g",
+        "slug": "movenpick-yogurt-greek-plain-germany-100g",
+        "sku": "4002334114794",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cea486e5598cfe9e939f.png",
+        "match_score": 0.0073
+      }
+    ],
+    "matches": [
+      {
+        "title": "Milba Full Cream Natural Yoghurt, UAE, 1kg",
+        "slug": "milba-full-cream-natural-yoghurt-uae-1kg",
+        "sku": "6299200051545",
+        "price": 4.49,
+        "originalPrice": 4.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/109583.png",
+        "match_score": 0.8984
+      }
+    ],
+    "product": {
+      "title": "Milba Full Cream Natural Yoghurt, UAE, 1kg",
+      "slug": "milba-full-cream-natural-yoghurt-uae-1kg",
+      "sku": "6299200051545",
+      "price": 4.49,
+      "originalPrice": 4.49,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/109583.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and weight",
+      "product": {
+        "title": "Milba Full Cream Natural Yoghurt, UAE, 1kg",
+        "slug": "milba-full-cream-natural-yoghurt-uae-1kg",
+        "sku": "6299200051545",
+        "price": 4.49,
+        "originalPrice": 4.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/109583.png",
+        "match_score": 0.8984,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 13,
+    "raw": "PROTEINSWhole Chicken 1.1kg1.1kg",
+    "label": "Whole Chicken 1.1 kg",
+    "search_query": "whole chicken 1.1kg",
+    "expected_match": "Whole Chicken 1.1 kg",
+    "search_queries_tried": [
+      "whole chicken 1.1kg"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio."
+  },
+  {
+    "line": 14,
+    "raw": "PROTEINSWhole chicken 800g800g",
+    "label": "Whole Chicken 800 g",
+    "search_query": "whole chicken 800g",
+    "expected_match": "Whole Chicken 800 g",
+    "search_queries_tried": [
+      "whole chicken 800g"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio."
+  },
+  {
+    "line": 15,
+    "raw": "CLEANING TOOLS & DISPOSABLESFacial tissue 5's1 x 5pack",
+    "label": "Facial Tissue 5 Pack",
+    "search_query": "facial tissue 5pack",
+    "expected_match": "Facial Tissue 5 Pack",
+    "search_queries_tried": [
+      "facial tissue 5pack"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio."
+  },
+  {
+    "line": 16,
+    "raw": "WATERBottle water12 x 500ml",
+    "label": "Bottle Water 12 x 500 ml",
+    "search_query": "bottle water 12 x 500ml",
+    "expected_match": "Bottle Water 12 x 500 ml",
+    "search_queries_tried": [
+      "bottle water 12 x 500ml"
+    ],
+    "match_score": 0.9034,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Lake Bottle Water Pack, UAE, 12x500ml",
+        "slug": "lake-bottle-water-pack-uae-12x500ml",
+        "sku": "6299200000147",
+        "price": 3.49,
+        "originalPrice": 3.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images_2024/UAE_Images/6299200000147.png",
+        "match_score": 0.9034
+      }
+    ],
+    "matches": [
+      {
+        "title": "Lake Bottle Water Pack, UAE, 12x500ml",
+        "slug": "lake-bottle-water-pack-uae-12x500ml",
+        "sku": "6299200000147",
+        "price": 3.49,
+        "originalPrice": 3.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images_2024/UAE_Images/6299200000147.png",
+        "match_score": 0.9034
+      }
+    ],
+    "product": {
+      "title": "Lake Bottle Water Pack, UAE, 12x500ml",
+      "slug": "lake-bottle-water-pack-uae-12x500ml",
+      "sku": "6299200000147",
+      "price": 3.49,
+      "originalPrice": 3.49,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images_2024/UAE_Images/6299200000147.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for pack size and volume",
+      "product": {
+        "title": "Lake Bottle Water Pack, UAE, 12x500ml",
+        "slug": "lake-bottle-water-pack-uae-12x500ml",
+        "sku": "6299200000147",
+        "price": 3.49,
+        "originalPrice": 3.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images_2024/UAE_Images/6299200000147.png",
+        "match_score": 0.9034,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 17,
+    "raw": "COFFEECoffee gold200g",
+    "label": "Coffee Gold 200 g",
+    "search_query": "coffee gold 200g",
+    "expected_match": "Coffee Gold 200 g",
+    "search_queries_tried": [
+      "coffee gold 200g"
+    ],
+    "match_score": 0.8284,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Cafe Dolce Gold Coffee, Belgium, 200g",
+        "slug": "cafe-dolce-gold-coffee-belgium-200g",
+        "sku": "6299200045094",
+        "price": 25.99,
+        "originalPrice": 27.29,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/108876.jpg",
+        "match_score": 0.8284
+      },
+      {
+        "title": "Cafe Dolce Gold Coffee, Belgium, 100g",
+        "slug": "cafe-dolce-gold-coffee-belgium-100g",
+        "sku": "6299200045087",
+        "price": 13.99,
+        "originalPrice": 13.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_Supermarket/6299200045087.jpeg",
+        "match_score": 0.0718
+      }
+    ],
+    "matches": [
+      {
+        "title": "Cafe Dolce Gold Coffee, Belgium, 200g",
+        "slug": "cafe-dolce-gold-coffee-belgium-200g",
+        "sku": "6299200045094",
+        "price": 25.99,
+        "originalPrice": 27.29,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/108876.jpg",
+        "match_score": 0.8284
+      }
+    ],
+    "product": {
+      "title": "Cafe Dolce Gold Coffee, Belgium, 200g",
+      "slug": "cafe-dolce-gold-coffee-belgium-200g",
+      "sku": "6299200045094",
+      "price": 25.99,
+      "originalPrice": 27.29,
+      "discountPercentage": 4,
+      "stockAmount": 20,
+      "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/108876.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and weight",
+      "product": {
+        "title": "Cafe Dolce Gold Coffee, Belgium, 200g",
+        "slug": "cafe-dolce-gold-coffee-belgium-200g",
+        "sku": "6299200045094",
+        "price": 25.99,
+        "originalPrice": 27.29,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/108876.jpg",
+        "match_score": 0.8284,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 18,
+    "raw": "CLEANING TOOLS & DISPOSABLESToilet rolls 10rolls1 x 10pc",
+    "label": "Toilet Rolls 10 Pack",
+    "search_query": "toilet rolls 10pack",
+    "expected_match": "Toilet Rolls 10 Pack",
+    "search_queries_tried": [
+      "toilet rolls 10pack"
+    ],
+    "match_score": 0.5963,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Bunny Bunny Toilet Rolls 10 Rollsx400 Sheets, 2 Ply, UAE",
+        "slug": "bunny-bunny-toilet-rolls-10-rollsx400-sheets-2-ply-uae",
+        "sku": "6299200034081",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200034081.jpg",
+        "match_score": 0.5963
+      },
+      {
+        "title": "Scala 2 Ply Toilet Paper Rolls, Italy, 10x130 Sheets",
+        "slug": "scala-2-ply-toilet-paper-rolls-italy-10x130-sheets",
+        "sku": "8005495463264",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67fe35f069f94dbee215be80.png",
+        "match_score": 0.5855
+      },
+      {
+        "title": "Perla Chamomile Toilet Roll, Italy, 3Ply x 4 Rolls x 150 Sheets",
+        "slug": "perla-chamomile-toilet-roll-italy-3ply-x-4-rolls-x-150-sheets",
+        "sku": "8005495465749",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_Supermarket/8005495465749.jpg",
+        "match_score": 0.5646
+      },
+      {
+        "title": "Ora Toilet Blocks Blue, China, 2x4x50g",
+        "slug": "ora-toilet-blocks-blue-china-2x4x50g",
+        "sku": "6299200031943",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/687a152463f3b2a164cace89.jpg",
+        "match_score": 0.1783
+      },
+      {
+        "title": "Oro Toilet Blocks, China, 4 Pieces, 200g",
+        "slug": "oro-toilet-blocks-china-4-pieces-200g",
+        "sku": "6299200033343",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68710d298b6ae261425e1f60.jpg",
+        "match_score": 0.1771
+      },
+      {
+        "title": "Scala Toilet Paper 2Ply, Italy, 24x150 Sheets",
+        "slug": "scala-toilet-paper-2ply-italy-24x150-sheets",
+        "sku": "8005495463394",
+        "price": 23.99,
+        "originalPrice": 25.19,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/65a8c9800c81196f92b303a3.png",
+        "match_score": 0.1591
+      },
+      {
+        "title": "Scala Maxi Roll, Italy 2 Ply 1 Roll X 400 Sheets",
+        "slug": "scala-maxi-roll-italy-2-ply-1-roll-x-400-sheets",
+        "sku": "8005495111363",
+        "price": 14.99,
+        "originalPrice": 14.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/8005495111363.jpg",
+        "match_score": 0.0477
+      }
+    ],
+    "matches": [
+      {
+        "title": "Scala 2 Ply Toilet Paper Rolls, Italy, 10x130 Sheets",
+        "slug": "scala-2-ply-toilet-paper-rolls-italy-10x130-sheets",
+        "sku": "8005495463264",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67fe35f069f94dbee215be80.png",
+        "match_score": 0.5855
+      },
+      {
+        "title": "Perla Chamomile Toilet Roll, Italy, 3Ply x 4 Rolls x 150 Sheets",
+        "slug": "perla-chamomile-toilet-roll-italy-3ply-x-4-rolls-x-150-sheets",
+        "sku": "8005495465749",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_Supermarket/8005495465749.jpg",
+        "match_score": 0.5646
+      },
+      {
+        "title": "Bunny Bunny Toilet Rolls 10 Rollsx400 Sheets, 2 Ply, UAE",
+        "slug": "bunny-bunny-toilet-rolls-10-rollsx400-sheets-2-ply-uae",
+        "sku": "6299200034081",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200034081.jpg",
+        "match_score": 0.5963
+      }
+    ],
+    "product": {
+      "title": "Scala 2 Ply Toilet Paper Rolls, Italy, 10x130 Sheets",
+      "slug": "scala-2-ply-toilet-paper-rolls-italy-10x130-sheets",
+      "sku": "8005495463264",
+      "price": 7.99,
+      "originalPrice": 7.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/product-information-management/67fe35f069f94dbee215be80.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for pack size",
+      "product": {
+        "title": "Bunny Bunny Toilet Rolls 10 Rollsx400 Sheets, 2 Ply, UAE",
+        "slug": "bunny-bunny-toilet-rolls-10-rollsx400-sheets-2-ply-uae",
+        "sku": "6299200034081",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200034081.jpg",
+        "match_score": 0.5963,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 19,
+    "raw": "SUGARSSugar Granulated 5kg5kg",
+    "label": "Sugar Granulated 5 kg",
+    "search_query": "sugar granulated 5kg",
+    "expected_match": "Sugar Granulated 5 kg",
+    "search_queries_tried": [
+      "sugar granulated 5kg"
+    ],
+    "match_score": 0.62,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Volga White Sugar, UAE, 5kg",
+        "slug": "volga-white-sugar-uae-5kg",
+        "sku": "6291106821543",
+        "price": 15.99,
+        "originalPrice": 15.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/67c83a6f93205e2dde73a8cd.jpg",
+        "match_score": 0.62
+      },
+      {
+        "title": "Ruf Vanilla Sugar, Germany",
+        "slug": "ruf-vanilla-sugar-germany",
+        "sku": "4002809079320",
+        "price": 3.59,
+        "originalPrice": 3.59,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/4002809079320.jpg",
+        "match_score": 0.1861
+      },
+      {
+        "title": "Green Farm Demersra Brown Sugar, UAE",
+        "slug": "green-farm-demersra-brown-sugar-uae",
+        "sku": "6291104157842",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/SSC_PIM/6291104157842.jpg",
+        "match_score": 0.1592
+      },
+      {
+        "title": "V-min Sugar Free Gold Drink, Malaysia, 250ml",
+        "slug": "v-min-sugar-free-gold-drink-malaysia-250ml",
+        "sku": "9551016900996",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE_Images/9551016900996.png",
+        "match_score": 0.1308
+      },
+      {
+        "title": "Kingsley Zero Sugar Cola Soft Drink, UAE, 300ml",
+        "slug": "kingsley-zero-sugar-cola-soft-drink-uae-300ml",
+        "sku": "6297000763910",
+        "price": 1.69,
+        "originalPrice": 1.69,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/109461.png",
+        "match_score": 0.1206
+      },
+      {
+        "title": "Wow Brown Sugar Bubble Tea, Taiwan, 235ml",
+        "slug": "wow-brown-sugar-bubble-tea-taiwan-235ml",
+        "sku": "4711476005753",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/Viva_31_10/4711476005210.JPG",
+        "match_score": 0.1164
+      },
+      {
+        "title": "Ama Stevia Sweetener, China, 100 Pieces",
+        "slug": "ama-stevia-sweetener-china-100-pieces",
+        "sku": "6299200051828",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/67c83a8693205e2dde73a9c5.jpg",
+        "match_score": 0.0368
+      },
+      {
+        "title": "Ama Classic Sweetener, China, 300 Pieces",
+        "slug": "ama-classic-sweetener-china-300-pieces",
+        "sku": "6299200051811",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_07_12/6299200051811.jpg",
+        "match_score": 0.0302
+      },
+      {
+        "title": "Volga Sugar, UAE, 2kg",
+        "slug": "volga-sugar-uae-2kg",
+        "sku": "6291106820874",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/67c83a6e93205e2dde73a8cb.jpg",
+        "match_score": 0.0248
+      },
+      {
+        "title": "Chic N Choc Sugar Free Digestive Biscuits, Netherlands, 400g",
+        "slug": "chic-n-choc-sugar-free-digestive-biscuits-netherlands-400g",
+        "sku": "6299200049276",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/UAE/Regular/6299200049276.jpg",
+        "match_score": 0.02
+      },
+      {
+        "title": "Vondemolen Honey Cake with Nib Sugar, Belgium, 300g",
+        "slug": "vondemolen-honey-cake-with-nib-sugar-belgium-300g",
+        "sku": "5410838410783",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6777e7e1b2f973a6386b350f.png",
+        "match_score": 0.0191
+      },
+      {
+        "title": "Dulceplus Sugared Party Mix Fruit Jellies, Spain, 400g",
+        "slug": "dulceplus-sugared-party-mix-fruit-jellies-spain-400g",
+        "sku": "8436546513841",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/8436546513841.jpg",
+        "match_score": 0.0183
+      }
+    ],
+    "matches": [
+      {
+        "title": "Volga White Sugar, UAE, 5kg",
+        "slug": "volga-white-sugar-uae-5kg",
+        "sku": "6291106821543",
+        "price": 15.99,
+        "originalPrice": 15.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/67c83a6f93205e2dde73a8cd.jpg",
+        "match_score": 0.62
+      }
+    ],
+    "product": {
+      "title": "Volga White Sugar, UAE, 5kg",
+      "slug": "volga-white-sugar-uae-5kg",
+      "sku": "6291106821543",
+      "price": 15.99,
+      "originalPrice": 15.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://images.deliveryhero.io/image/product-information-management/67c83a6f93205e2dde73a8cd.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and weight",
+      "product": {
+        "title": "Volga White Sugar, UAE, 5kg",
+        "slug": "volga-white-sugar-uae-5kg",
+        "sku": "6291106821543",
+        "price": 15.99,
+        "originalPrice": 15.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/67c83a6f93205e2dde73a8cd.jpg",
+        "match_score": 0.62,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 20,
+    "raw": "MILK LONGLIFEFull Fat UHT Milk 1L1L",
+    "label": "Full Fat UHT Milk 1 L",
+    "search_query": "full fat uht milk 1l",
+    "expected_match": "Full Fat UHT Milk 1 L",
+    "search_queries_tried": [
+      "full fat uht milk 1l"
+    ],
+    "match_score": 0.8621,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Salzburgmilch 3.5% Full Fat UHT Milk, Austria, 1L",
+        "slug": "salzburgmilch-35-full-fat-uht-milk-austria-1l",
+        "sku": "9004584021667",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67a1bd1b677c3d54a52c2f98.png",
+        "match_score": 0.8621
+      },
+      {
+        "title": "Black Forest Milk Organic Full Fat UHT Milk, Germany, 1L",
+        "slug": "black-forest-milk-organic-full-fat-uht-milk-germany-1l",
+        "sku": "4046700027189",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/Grocery/4046700027189.jpg",
+        "match_score": 0.8392
+      },
+      {
+        "title": "Milba Milk Uht Full Fat Original, Germany, 1L",
+        "slug": "milba-milk-uht-full-fat-original-germany-1l",
+        "sku": "6299200005708",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/687a151763f3b2a164caca39.jpg",
+        "match_score": 0.8056
+      },
+      {
+        "title": "Milba Full Fat Fresh Milk, UAE, 1L",
+        "slug": "milba-full-fat-fresh-milk-uae-1l",
+        "sku": "6299200051507",
+        "price": 5.49,
+        "originalPrice": 5.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/109579.png",
+        "match_score": 0.7298
+      },
+      {
+        "title": "Milba UHT Low Fat Milk, Germany, 1L",
+        "slug": "milba-uht-low-fat-milk-germany-1l",
+        "sku": "6299200005692",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/65f2305a60d824a27a10c07c.jpg",
+        "match_score": 0.6724
+      },
+      {
+        "title": "Milcasa UHT Long-Life Milk - Poland, 1L",
+        "slug": "milcasa-uht-long-life-milk-poland-1l",
+        "sku": "5900820016531",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68358041291fc14384b306ee.png",
+        "match_score": 0.5
+      },
+      {
+        "title": "Frischli Long Life Full Cream Milk, 1L",
+        "slug": "frischli-long-life-full-cream-milk-1l",
+        "sku": "4045500034052",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/689aef78e9fdfac165d32455.jpg",
+        "match_score": 0.4969
+      },
+      {
+        "title": "Milba Full Cream Fresh Milk, UAE, 2L",
+        "slug": "milba-full-cream-fresh-milk-uae-2l",
+        "sku": "6299200051521",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/64804b712d4391fbaf711ab1.png",
+        "match_score": 0.0608
+      }
+    ],
+    "matches": [
+      {
+        "title": "Black Forest Milk Organic Full Fat UHT Milk, Germany, 1L",
+        "slug": "black-forest-milk-organic-full-fat-uht-milk-germany-1l",
+        "sku": "4046700027189",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/Grocery/4046700027189.jpg",
+        "match_score": 0.8392
+      },
+      {
+        "title": "Milba Milk Uht Full Fat Original, Germany, 1L",
+        "slug": "milba-milk-uht-full-fat-original-germany-1l",
+        "sku": "6299200005708",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/687a151763f3b2a164caca39.jpg",
+        "match_score": 0.8056
+      },
+      {
+        "title": "Salzburgmilch 3.5% Full Fat UHT Milk, Austria, 1L",
+        "slug": "salzburgmilch-35-full-fat-uht-milk-austria-1l",
+        "sku": "9004584021667",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67a1bd1b677c3d54a52c2f98.png",
+        "match_score": 0.8621
+      }
+    ],
+    "product": {
+      "title": "Black Forest Milk Organic Full Fat UHT Milk, Germany, 1L",
+      "slug": "black-forest-milk-organic-full-fat-uht-milk-germany-1l",
+      "sku": "4046700027189",
+      "price": 4.99,
+      "originalPrice": 4.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/Grocery/4046700027189.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and volume",
+      "product": {
+        "title": "Salzburgmilch 3.5% Full Fat UHT Milk, Austria, 1L",
+        "slug": "salzburgmilch-35-full-fat-uht-milk-austria-1l",
+        "sku": "9004584021667",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67a1bd1b677c3d54a52c2f98.png",
+        "match_score": 0.8621,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 21,
+    "raw": "POTATO & ROOTPotato Premium1kg",
+    "label": "Potato Premium 1 kg",
+    "search_query": "potato 1kg",
+    "expected_match": "Potato Premium 1 kg",
+    "search_queries_tried": [
+      "potato 1kg"
+    ],
+    "match_score": 0.9,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Potato Premium 1kg",
+        "slug": "potato-premium-1kg",
+        "sku": "103555",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 2,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a12a.jpg",
+        "match_score": 0.9
+      },
+      {
+        "title": "Al Habibi Potato Seasoning, UAE, 160g",
+        "slug": "al-habibi-potato-seasoning-uae-160g",
+        "sku": "6299200053594",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva/109794%20-%206299200053594.jpg",
+        "match_score": 0.0558
+      },
+      {
+        "title": "Jolliz Salted Potato Chips - India, 135g",
+        "slug": "jolliz-salted-potato-chips-india-135g",
+        "sku": "8906069611213",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/685a59d83f1052ec87f463e4.png",
+        "match_score": 0.0551
+      },
+      {
+        "title": "Jolliz Chilli Tadka Potato Chips, 135g",
+        "slug": "jolliz-chilli-tadka-potato-chips-135g",
+        "sku": "8906069612241",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/685955e8fdeec281b7667cc2.png",
+        "match_score": 0.0551
+      },
+      {
+        "title": "Jolliz Masala Potato Chips - India, 135g",
+        "slug": "jolliz-masala-potato-chips-india-135g",
+        "sku": "8906069611237",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/685a5a49ac5099c7895715a6.png",
+        "match_score": 0.0551
+      },
+      {
+        "title": "Viva Sour Cream & Onion Potato Chips, 160g",
+        "slug": "viva-sour-cream-onion-potato-chips-160g",
+        "sku": "6299200062190",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688a0dad5520a948897bbc9d.jpg",
+        "match_score": 0.0544
+      },
+      {
+        "title": "McSnacker Pizza Potato Chips, China, 160g",
+        "slug": "mcsnacker-pizza-potato-chips-china-160g",
+        "sku": "6299200049290",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/6299200049290.png",
+        "match_score": 0.0544
+      },
+      {
+        "title": "McSnacker Cheese Potato Chips, China, 160g",
+        "slug": "mcsnacker-cheese-potato-chips-china-160g",
+        "sku": "6299200060745",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67c99ba493205e2dde74dc25.png",
+        "match_score": 0.0541
+      },
+      {
+        "title": "McSnacker Ketchup Potato Chips, China, 160g",
+        "slug": "mcsnacker-ketchup-potato-chips-china-160g",
+        "sku": "6299200049313",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/6299200049313.png",
+        "match_score": 0.0538
+      },
+      {
+        "title": "Balaji Cream&Onion Potato Chips, India, 135g",
+        "slug": "balaji-creamonion-potato-chips-india-135g",
+        "sku": "8906010505226",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336df3a18612bfbd97d76.jpg",
+        "match_score": 0.0535
+      },
+      {
+        "title": "McSnacker Original Potato Chips, China, 160g",
+        "slug": "mcsnacker-original-potato-chips-china-160g",
+        "sku": "6299200049283",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/6299200049283.png",
+        "match_score": 0.0535
+      },
+      {
+        "title": "McSnacker Jalapeno Potato Chips, China, 160g",
+        "slug": "mcsnacker-jalapeno-potato-chips-china-160g",
+        "sku": "6299200049566",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/6299200049566.png",
+        "match_score": 0.0535
+      }
+    ],
+    "matches": [
+      {
+        "title": "Potato Premium 1kg",
+        "slug": "potato-premium-1kg",
+        "sku": "103555",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 2,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a12a.jpg",
+        "match_score": 0.9
+      }
+    ],
+    "product": {
+      "title": "Potato Premium 1kg",
+      "slug": "potato-premium-1kg",
+      "sku": "103555",
+      "price": 4.99,
+      "originalPrice": 4.99,
+      "discountPercentage": 0,
+      "stockAmount": 2,
+      "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a12a.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and weight",
+      "product": {
+        "title": "Potato Premium 1kg",
+        "slug": "potato-premium-1kg",
+        "sku": "103555",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 2,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a12a.jpg",
+        "match_score": 0.9,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 22,
+    "raw": "CABBAGE & GOURDSCucumber1kg",
+    "label": "Cucumber 1 kg",
+    "search_query": "cucumber 1kg",
+    "expected_match": "Cucumber 1 kg",
+    "search_queries_tried": [
+      "cucumber 1kg"
+    ],
+    "match_score": 0.95,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Cucumber - UAE 1kg",
+        "slug": "cucumber-uae-1kg",
+        "sku": "101660",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 2,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68ff453ea80bf9993d161115.png",
+        "match_score": 0.95
+      },
+      {
+        "title": "Freshly Pick Pickled Cucumbers Crisp & Crunchy India, 1kg",
+        "slug": "freshly-pick-pickled-cucumbers-crisp-crunchy-india-1kg",
+        "sku": "6299200025133",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336bc3a18612bfbd97041.jpg",
+        "match_score": 0.7773
+      },
+      {
+        "title": "Ego Hydrating Facial Mask - Cucumber, China, 25ml",
+        "slug": "ego-hydrating-facial-mask-cucumber-china-25ml",
+        "sku": "6299200048897",
+        "price": 1.99,
+        "originalPrice": 1.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva/109414.png",
+        "match_score": 0.3136
+      },
+      {
+        "title": "Cucumber Mini Pack, UAE, 250g",
+        "slug": "cucumber-mini-pack-uae-250g",
+        "sku": "6299200050982",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/642a9d50d1bc50e31c1a88df.jpg",
+        "match_score": 0.0627
+      },
+      {
+        "title": "Silk Cream Soap Cucumber Cream, UAE, 100g",
+        "slug": "silk-cream-soap-cucumber-cream-uae-100g",
+        "sku": "6291049442003",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67f76503ef8eff1ef2f6b17d.png",
+        "match_score": 0.0571
+      },
+      {
+        "title": "Freshly Pick Hamburger Dill Chips, India, 680g",
+        "slug": "freshly-pick-hamburger-dill-chips-india-680g",
+        "sku": "6299200050883",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/Images/109572.jpg",
+        "match_score": 0.0184
+      }
+    ],
+    "matches": [
+      {
+        "title": "Cucumber - UAE 1kg",
+        "slug": "cucumber-uae-1kg",
+        "sku": "101660",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 2,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68ff453ea80bf9993d161115.png",
+        "match_score": 0.95
+      },
+      {
+        "title": "Freshly Pick Pickled Cucumbers Crisp & Crunchy India, 1kg",
+        "slug": "freshly-pick-pickled-cucumbers-crisp-crunchy-india-1kg",
+        "sku": "6299200025133",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336bc3a18612bfbd97041.jpg",
+        "match_score": 0.7773
+      }
+    ],
+    "product": {
+      "title": "Cucumber - UAE 1kg",
+      "slug": "cucumber-uae-1kg",
+      "sku": "101660",
+      "price": 6.99,
+      "originalPrice": 6.99,
+      "discountPercentage": 0,
+      "stockAmount": 2,
+      "image": "https://talabat.dhmedia.io/image/product-information-management/68ff453ea80bf9993d161115.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and weight",
+      "product": {
+        "title": "Cucumber - UAE 1kg",
+        "slug": "cucumber-uae-1kg",
+        "sku": "101660",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 2,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68ff453ea80bf9993d161115.png",
+        "match_score": 0.95,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 23,
+    "raw": "MILK LONGLIFEMilk Full Fat UHT1L",
+    "label": "Milk Full Fat UHT 1 L",
+    "search_query": "milk full fat uht 1l",
+    "expected_match": "Milk Full Fat UHT 1 L",
+    "search_queries_tried": [
+      "milk full fat uht 1l"
+    ],
+    "match_score": 0.8515,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Salzburgmilch 3.5% Full Fat UHT Milk, Austria, 1L",
+        "slug": "salzburgmilch-35-full-fat-uht-milk-austria-1l",
+        "sku": "9004584021667",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67a1bd1b677c3d54a52c2f98.png",
+        "match_score": 0.8515
+      },
+      {
+        "title": "Black Forest Milk Organic Full Fat UHT Milk, Germany, 1L",
+        "slug": "black-forest-milk-organic-full-fat-uht-milk-germany-1l",
+        "sku": "4046700027189",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/Grocery/4046700027189.jpg",
+        "match_score": 0.8392
+      },
+      {
+        "title": "Milba Milk Uht Full Fat Original, Germany, 1L",
+        "slug": "milba-milk-uht-full-fat-original-germany-1l",
+        "sku": "6299200005708",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/687a151763f3b2a164caca39.jpg",
+        "match_score": 0.8389
+      },
+      {
+        "title": "Milba Full Fat Fresh Milk, UAE, 1L",
+        "slug": "milba-full-fat-fresh-milk-uae-1l",
+        "sku": "6299200051507",
+        "price": 5.49,
+        "originalPrice": 5.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/109579.png",
+        "match_score": 0.7163
+      },
+      {
+        "title": "Milba UHT Low Fat Milk, Germany, 1L",
+        "slug": "milba-uht-low-fat-milk-germany-1l",
+        "sku": "6299200005692",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/65f2305a60d824a27a10c07c.jpg",
+        "match_score": 0.6064
+      },
+      {
+        "title": "Frischli Long Life Full Cream Milk, 1L",
+        "slug": "frischli-long-life-full-cream-milk-1l",
+        "sku": "4045500034052",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/689aef78e9fdfac165d32455.jpg",
+        "match_score": 0.4846
+      },
+      {
+        "title": "Milcasa UHT Long-Life Milk - Poland, 1L",
+        "slug": "milcasa-uht-long-life-milk-poland-1l",
+        "sku": "5900820016531",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68358041291fc14384b306ee.png",
+        "match_score": 0.45
+      },
+      {
+        "title": "Milba Full Cream Fresh Milk, UAE, 2L",
+        "slug": "milba-full-cream-fresh-milk-uae-2l",
+        "sku": "6299200051521",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/64804b712d4391fbaf711ab1.png",
+        "match_score": 0.0608
+      }
+    ],
+    "matches": [
+      {
+        "title": "Black Forest Milk Organic Full Fat UHT Milk, Germany, 1L",
+        "slug": "black-forest-milk-organic-full-fat-uht-milk-germany-1l",
+        "sku": "4046700027189",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/Grocery/4046700027189.jpg",
+        "match_score": 0.8392
+      },
+      {
+        "title": "Milba Milk Uht Full Fat Original, Germany, 1L",
+        "slug": "milba-milk-uht-full-fat-original-germany-1l",
+        "sku": "6299200005708",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/687a151763f3b2a164caca39.jpg",
+        "match_score": 0.8389
+      },
+      {
+        "title": "Salzburgmilch 3.5% Full Fat UHT Milk, Austria, 1L",
+        "slug": "salzburgmilch-35-full-fat-uht-milk-austria-1l",
+        "sku": "9004584021667",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67a1bd1b677c3d54a52c2f98.png",
+        "match_score": 0.8515
+      }
+    ],
+    "product": {
+      "title": "Black Forest Milk Organic Full Fat UHT Milk, Germany, 1L",
+      "slug": "black-forest-milk-organic-full-fat-uht-milk-germany-1l",
+      "sku": "4046700027189",
+      "price": 4.99,
+      "originalPrice": 4.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/Grocery/4046700027189.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and volume",
+      "product": {
+        "title": "Salzburgmilch 3.5% Full Fat UHT Milk, Austria, 1L",
+        "slug": "salzburgmilch-35-full-fat-uht-milk-austria-1l",
+        "sku": "9004584021667",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67a1bd1b677c3d54a52c2f98.png",
+        "match_score": 0.8515,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 24,
+    "raw": "CLEANING TOOLS & DISPOSABLESKitchen roll 3+11 x 4pack",
+    "label": "Kitchen Roll 4 Pack",
+    "search_query": "kitchen roll 4pack",
+    "expected_match": "Kitchen Roll 4 Pack",
+    "search_queries_tried": [
+      "kitchen roll 4pack"
+    ],
+    "match_score": 0.5949,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Bunny Bunny Kitchen Roll 3 + 1x90 Sheets, 2Ply, UAE",
+        "slug": "bunny-bunny-kitchen-roll-3-1x90-sheets-2ply-uae",
+        "sku": "6299200034456",
+        "price": 11.99,
+        "originalPrice": 11.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200034456.jpg",
+        "match_score": 0.5949
+      },
+      {
+        "title": "Scala Limone 2 Ply Kitchen Rolls, Italy, 2x98 Sheets",
+        "slug": "scala-limone-2-ply-kitchen-rolls-italy-2x98-sheets",
+        "sku": "8005495467552",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67fe35f169f94dbee215be82.png",
+        "match_score": 0.5775
+      },
+      {
+        "title": "Bunny Bunny Toilet Rolls 10 Rollsx400 Sheets, 2 Ply, UAE",
+        "slug": "bunny-bunny-toilet-rolls-10-rollsx400-sheets-2-ply-uae",
+        "sku": "6299200034081",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200034081.jpg",
+        "match_score": 0.1618
+      },
+      {
+        "title": "Scala Maxi Roll, Italy 2 Ply 1 Roll X 400 Sheets",
+        "slug": "scala-maxi-roll-italy-2-ply-1-roll-x-400-sheets",
+        "sku": "8005495111363",
+        "price": 14.99,
+        "originalPrice": 14.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/8005495111363.jpg",
+        "match_score": 0.1514
+      }
+    ],
+    "matches": [
+      {
+        "title": "Scala Limone 2 Ply Kitchen Rolls, Italy, 2x98 Sheets",
+        "slug": "scala-limone-2-ply-kitchen-rolls-italy-2x98-sheets",
+        "sku": "8005495467552",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67fe35f169f94dbee215be82.png",
+        "match_score": 0.5775
+      },
+      {
+        "title": "Bunny Bunny Kitchen Roll 3 + 1x90 Sheets, 2Ply, UAE",
+        "slug": "bunny-bunny-kitchen-roll-3-1x90-sheets-2ply-uae",
+        "sku": "6299200034456",
+        "price": 11.99,
+        "originalPrice": 11.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200034456.jpg",
+        "match_score": 0.5949
+      }
+    ],
+    "product": {
+      "title": "Scala Limone 2 Ply Kitchen Rolls, Italy, 2x98 Sheets",
+      "slug": "scala-limone-2-ply-kitchen-rolls-italy-2x98-sheets",
+      "sku": "8005495467552",
+      "price": 7.99,
+      "originalPrice": 7.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/product-information-management/67fe35f169f94dbee215be82.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Matches pack size (3+1 pack)",
+      "product": {
+        "title": "Bunny Bunny Kitchen Roll 3 + 1x90 Sheets, 2Ply, UAE",
+        "slug": "bunny-bunny-kitchen-roll-3-1x90-sheets-2ply-uae",
+        "sku": "6299200034456",
+        "price": 11.99,
+        "originalPrice": 11.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200034456.jpg",
+        "match_score": 0.5949,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 25,
+    "raw": "PROTEINSWhole chicken 700g700g",
+    "label": "Whole Chicken 700 g",
+    "search_query": "whole chicken 700g",
+    "expected_match": "Whole Chicken 700 g",
+    "search_queries_tried": [
+      "whole chicken 700g"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio."
+  },
+  {
+    "line": 26,
+    "raw": "CLEANING TOOLS & DISPOSABLESFacial tissue 5's1 x 5pack",
+    "label": "Facial Tissue 5 Pack",
+    "search_query": "facial tissue 5pack",
+    "expected_match": "Facial Tissue 5 Pack",
+    "search_queries_tried": [
+      "facial tissue 5pack"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio."
+  },
+  {
+    "line": 27,
+    "raw": "BREADLarge white bread600g",
+    "label": "Large White Bread 600 g",
+    "search_query": "large white bread 600g",
+    "expected_match": "Large White Bread 600 g",
+    "search_queries_tried": [
+      "large white bread 600g"
+    ],
+    "match_score": 0.8456,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Cottage Loaf Arabic Bread White Large, UAE, 600g",
+        "slug": "cottage-loaf-arabic-bread-white-large-uae-600g",
+        "sku": "6299200035811",
+        "price": 1.99,
+        "originalPrice": 1.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200035811.jpg",
+        "match_score": 0.8456
+      },
+      {
+        "title": "Modern Bakery Medium White Sliced Bread, UAE, 650g",
+        "slug": "modern-bakery-medium-white-sliced-bread-uae-650g",
+        "sku": "1110000130191",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/Images/QC_Standard_Images/KWZOF77T.png",
+        "match_score": 0.515
+      },
+      {
+        "title": "Modern Bakery Milk Bread, UAE, 600g",
+        "slug": "modern-bakery-milk-bread-uae-600g",
+        "sku": "1110000130146",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6729bd1cfadc1a3b1d3ba8f6.png",
+        "match_score": 0.4777
+      },
+      {
+        "title": "Milba Toast Slices, Germany, 200g",
+        "slug": "milba-toast-slices-germany-200g",
+        "sku": "6299200044448",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68837f108b4d17c9361add01.jpg",
+        "match_score": 0.0063
+      }
+    ],
+    "matches": [
+      {
+        "title": "Cottage Loaf Arabic Bread White Large, UAE, 600g",
+        "slug": "cottage-loaf-arabic-bread-white-large-uae-600g",
+        "sku": "6299200035811",
+        "price": 1.99,
+        "originalPrice": 1.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200035811.jpg",
+        "match_score": 0.8456
+      }
+    ],
+    "product": {
+      "title": "Cottage Loaf Arabic Bread White Large, UAE, 600g",
+      "slug": "cottage-loaf-arabic-bread-white-large-uae-600g",
+      "sku": "6299200035811",
+      "price": 1.99,
+      "originalPrice": 1.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200035811.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for bread type, size, and weight",
+      "product": {
+        "title": "Cottage Loaf Arabic Bread White Large, UAE, 600g",
+        "slug": "cottage-loaf-arabic-bread-white-large-uae-600g",
+        "sku": "6299200035811",
+        "price": 1.99,
+        "originalPrice": 1.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200035811.jpg",
+        "match_score": 0.8456,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 28,
+    "raw": "ONION & GARLICOnion Pink1kg",
+    "label": "Onion Pink 1 kg",
+    "search_query": "onion pink 1kg",
+    "expected_match": "Onion Pink 1 kg",
+    "search_queries_tried": [
+      "onion pink 1kg"
+    ],
+    "match_score": 1.0,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Onion Pink 1kg",
+        "slug": "onion-pink-1kg",
+        "sku": "101654",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 4,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a12f.jpg",
+        "match_score": 1.0
+      },
+      {
+        "title": "Freshly Pick Silverskin Onion, Germany, 330g",
+        "slug": "freshly-pick-silverskin-onion-germany-330g",
+        "sku": "6299200060929",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67fe35e469f94dbee215be1f.png",
+        "match_score": 0.0198
+      }
+    ],
+    "matches": [
+      {
+        "title": "Onion Pink 1kg",
+        "slug": "onion-pink-1kg",
+        "sku": "101654",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 4,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a12f.jpg",
+        "match_score": 1.0
+      }
+    ],
+    "product": {
+      "title": "Onion Pink 1kg",
+      "slug": "onion-pink-1kg",
+      "sku": "101654",
+      "price": 3.99,
+      "originalPrice": 3.99,
+      "discountPercentage": 0,
+      "stockAmount": 4,
+      "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a12f.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and weight",
+      "product": {
+        "title": "Onion Pink 1kg",
+        "slug": "onion-pink-1kg",
+        "sku": "101654",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 4,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f0e0b3d211e5c9fdd3a12f.jpg",
+        "match_score": 1.0,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 29,
+    "raw": "FROZEN VEGETABLESFrench fries1kg",
+    "label": "French Fries 1 kg",
+    "search_query": "french fries 1kg",
+    "expected_match": "French Fries 1 kg",
+    "search_queries_tried": [
+      "french fries 1kg"
+    ],
+    "match_score": 0.5988,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "McSnacker Crinkle Cut Fries, Belgium, 1kg",
+        "slug": "mcsnacker-crinkle-cut-fries-belgium-1kg",
+        "sku": "6299200055413",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE_Images/6299200055413.png",
+        "match_score": 0.5988
+      },
+      {
+        "title": "Mondelle Waffle Cut Fries, Belgium, 500g",
+        "slug": "mondelle-waffle-cut-fries-belgium-500g",
+        "sku": "5412588018752",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/5412588018752.jpeg",
+        "match_score": 0.0216
+      },
+      {
+        "title": "Ama Crispy Fried Onions, Netherlands, 100g",
+        "slug": "ama-crispy-fried-onions-netherlands-100g",
+        "sku": "6299200059916",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67a1bd13677c3d54a52c2f5b.png",
+        "match_score": 0.0075
+      },
+      {
+        "title": "Hortex Stir Fry Vegetable With Oriental Seasoning, Poland, 400g",
+        "slug": "hortex-stir-fry-vegetable-with-oriental-seasoning-poland-400g",
+        "sku": "5900477000525",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/UAE_Images/61c06e38bfa1a8dd48ad5fd7.jpg",
+        "match_score": 0.0055
+      },
+      {
+        "title": "Hortex Stir-fry Vegetables Greek Style with Seasoning, Poland, 400g",
+        "slug": "hortex-stir-fry-vegetables-greek-style-with-seasoning-poland-400g",
+        "sku": "5900477016021",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/688380908b4d17c9361b0460.jpg",
+        "match_score": 0.0052
+      }
+    ],
+    "matches": [
+      {
+        "title": "McSnacker Crinkle Cut Fries, Belgium, 1kg",
+        "slug": "mcsnacker-crinkle-cut-fries-belgium-1kg",
+        "sku": "6299200055413",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE_Images/6299200055413.png",
+        "match_score": 0.5988
+      }
+    ],
+    "product": {
+      "title": "McSnacker Crinkle Cut Fries, Belgium, 1kg",
+      "slug": "mcsnacker-crinkle-cut-fries-belgium-1kg",
+      "sku": "6299200055413",
+      "price": 7.99,
+      "originalPrice": 7.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE_Images/6299200055413.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for product type and weight",
+      "product": {
+        "title": "McSnacker Crinkle Cut Fries, Belgium, 1kg",
+        "slug": "mcsnacker-crinkle-cut-fries-belgium-1kg",
+        "sku": "6299200055413",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE_Images/6299200055413.png",
+        "match_score": 0.5988,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 30,
+    "raw": "POTATO & ROOTCarrot1kg",
+    "label": "Carrot 1 kg",
+    "search_query": "carrot 1kg",
+    "expected_match": "Carrot 1 kg",
+    "search_queries_tried": [
+      "carrot 1kg"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Cucumber - UAE 1kg",
+        "slug": "cucumber-uae-1kg",
+        "sku": "101660",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 2,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68ff453ea80bf9993d161115.png",
+        "match_score": 0.4865
+      },
+      {
+        "title": "Giovanni Peas & Carrots, Italy, 400g",
+        "slug": "giovanni-peas-carrots-italy-400g",
+        "sku": "6299200049467",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/Images/6299200049467.jpg",
+        "match_score": 0.055
+      },
+      {
+        "title": "Cucumber Mini Pack, UAE, 250g",
+        "slug": "cucumber-mini-pack-uae-250g",
+        "sku": "6299200050982",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/642a9d50d1bc50e31c1a88df.jpg",
+        "match_score": 0.0045
+      }
+    ],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio.",
+    "gemini": {
+      "choice_index": 0,
+      "reason": "No plain carrots available; candidate 2 is a mixed vegetable pack",
+      "product": null,
+      "skipped": true
+    }
+  },
+  {
+    "line": 31,
+    "raw": "PASTA & INSTANT FOODElbow500g",
+    "label": "Elbow 500 g",
+    "search_query": "elbow 500g",
+    "expected_match": "Elbow 500 g",
+    "search_queries_tried": [
+      "elbow 500g"
+    ],
+    "match_score": 0.8559,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Finosta Elbow, India, 500g",
+        "slug": "finosta-elbow-india-500g",
+        "sku": "8908007958145",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/chifferi%20new.png",
+        "match_score": 0.8559
+      },
+      {
+        "title": "Arbella Pasta Elbows, Turkey, 500g",
+        "slug": "arbella-pasta-elbows-turkey-500g",
+        "sku": "8697430885400",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336e33a18612bfbd97ddb.jpg",
+        "match_score": 0.8167
+      },
+      {
+        "title": "Fusilli Pasta No. 114, Italy",
+        "slug": "fusilli-pasta-no-114-italy",
+        "sku": "8008120750623",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688399488b4d17c9361c5999.jpg",
+        "match_score": 0.0292
+      }
+    ],
+    "matches": [
+      {
+        "title": "Finosta Elbow, India, 500g",
+        "slug": "finosta-elbow-india-500g",
+        "sku": "8908007958145",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/chifferi%20new.png",
+        "match_score": 0.8559
+      },
+      {
+        "title": "Arbella Pasta Elbows, Turkey, 500g",
+        "slug": "arbella-pasta-elbows-turkey-500g",
+        "sku": "8697430885400",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336e33a18612bfbd97ddb.jpg",
+        "match_score": 0.8167
+      }
+    ],
+    "product": {
+      "title": "Finosta Elbow, India, 500g",
+      "slug": "finosta-elbow-india-500g",
+      "sku": "8908007958145",
+      "price": 2.49,
+      "originalPrice": 2.49,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/chifferi%20new.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for pasta shape and weight",
+      "product": {
+        "title": "Finosta Elbow, India, 500g",
+        "slug": "finosta-elbow-india-500g",
+        "sku": "8908007958145",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/chifferi%20new.png",
+        "match_score": 0.8559,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 32,
+    "raw": "PASTA & INSTANT FOODPenne rigate500g",
+    "label": "Penne Rigate 500 g",
+    "search_query": "penne rigate 500g",
+    "expected_match": "Penne Rigate 500 g",
+    "search_queries_tried": [
+      "penne rigate 500g"
+    ],
+    "match_score": 0.8979,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Finosta Penne Rigate, India, 500g",
+        "slug": "finosta-penne-rigate-india-500g",
+        "sku": "8908007958008",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958008.png",
+        "match_score": 0.8979
+      },
+      {
+        "title": "Antonio Amato Organic Whole Wheat Penne Rigate Pasta - Italy, 500g",
+        "slug": "antonio-amato-organic-whole-wheat-penne-rigate-pasta-italy-500g",
+        "sku": "8008120750807",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/686ccfb7c88288066160cf14.png",
+        "match_score": 0.7988
+      },
+      {
+        "title": "Arbella Pasta Penne Rigatte, Turkey, 500g",
+        "slug": "arbella-pasta-penne-rigatte-turkey-500g",
+        "sku": "8697430885431",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336e33a18612bfbd97ddd.jpg",
+        "match_score": 0.6458
+      },
+      {
+        "title": "Penne Rigate Pasta No.80, Italy",
+        "slug": "penne-rigate-pasta-no80-italy",
+        "sku": "8008120750593",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688399488b4d17c9361c59a3.jpg",
+        "match_score": 0.6418
+      },
+      {
+        "title": "Arbella Pasta Elbows, Turkey, 500g",
+        "slug": "arbella-pasta-elbows-turkey-500g",
+        "sku": "8697430885400",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336e33a18612bfbd97ddb.jpg",
+        "match_score": 0.1655
+      },
+      {
+        "title": "Arbella Penne Rigate Pasta, Turkey, 1kg",
+        "slug": "arbella-penne-rigate-pasta-turkey-1kg",
+        "sku": "8697430882126",
+        "price": 5.79,
+        "originalPrice": 5.79,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/8697430882126.png",
+        "match_score": 0.0738
+      },
+      {
+        "title": "Fusilli Pasta No. 114, Italy",
+        "slug": "fusilli-pasta-no-114-italy",
+        "sku": "8008120750623",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688399488b4d17c9361c5999.jpg",
+        "match_score": 0.0407
+      }
+    ],
+    "matches": [
+      {
+        "title": "Finosta Penne Rigate, India, 500g",
+        "slug": "finosta-penne-rigate-india-500g",
+        "sku": "8908007958008",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958008.png",
+        "match_score": 0.8979
+      },
+      {
+        "title": "Arbella Pasta Penne Rigatte, Turkey, 500g",
+        "slug": "arbella-pasta-penne-rigatte-turkey-500g",
+        "sku": "8697430885431",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336e33a18612bfbd97ddd.jpg",
+        "match_score": 0.6458
+      },
+      {
+        "title": "Antonio Amato Organic Whole Wheat Penne Rigate Pasta - Italy, 500g",
+        "slug": "antonio-amato-organic-whole-wheat-penne-rigate-pasta-italy-500g",
+        "sku": "8008120750807",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/686ccfb7c88288066160cf14.png",
+        "match_score": 0.7988
+      }
+    ],
+    "product": {
+      "title": "Finosta Penne Rigate, India, 500g",
+      "slug": "finosta-penne-rigate-india-500g",
+      "sku": "8908007958008",
+      "price": 2.49,
+      "originalPrice": 2.49,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958008.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for penne rigate and weight 500g.",
+      "product": {
+        "title": "Finosta Penne Rigate, India, 500g",
+        "slug": "finosta-penne-rigate-india-500g",
+        "sku": "8908007958008",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958008.png",
+        "match_score": 0.8979,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 33,
+    "raw": "COFFEECoffee gold100g",
+    "label": "Coffee Gold 100 g",
+    "search_query": "coffee gold 100g",
+    "expected_match": "Coffee Gold 100 g",
+    "search_queries_tried": [
+      "coffee gold 100g"
+    ],
+    "match_score": 0.8284,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Cafe Dolce Gold Coffee, Belgium, 100g",
+        "slug": "cafe-dolce-gold-coffee-belgium-100g",
+        "sku": "6299200045087",
+        "price": 13.99,
+        "originalPrice": 13.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_Supermarket/6299200045087.jpeg",
+        "match_score": 0.8284
+      },
+      {
+        "title": "Grandos Caffee Espresso, Germany, 100g",
+        "slug": "grandos-caffee-espresso-germany-100g",
+        "sku": "4009041108610",
+        "price": 13.99,
+        "originalPrice": 13.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/Change-Management/Viva/4009041108610-PhotoRoom.png-PhotoRoom.png",
+        "match_score": 0.1891
+      },
+      {
+        "title": "Cafe Dolce Gold Coffee, Belgium, 200g",
+        "slug": "cafe-dolce-gold-coffee-belgium-200g",
+        "sku": "6299200045094",
+        "price": 25.99,
+        "originalPrice": 27.29,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/108876.jpg",
+        "match_score": 0.0718
+      },
+      {
+        "title": "Cafe Dolce Classic Coffee, Germany, 200g",
+        "slug": "cafe-dolce-classic-coffee-germany-200g",
+        "sku": "6299200045100",
+        "price": 19.99,
+        "originalPrice": 20.99,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/687ba8fc63f3b2a164cbc65d.jpg",
+        "match_score": 0.0223
+      },
+      {
+        "title": "Italcaffe Classico Ground Coffee, Italy, 250g",
+        "slug": "italcaffe-classico-ground-coffee-italy-250g",
+        "sku": "8002640000527",
+        "price": 16.99,
+        "originalPrice": 16.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/UAE/VIVA/8002640000527.jpg",
+        "match_score": 0.0208
+      }
+    ],
+    "matches": [
+      {
+        "title": "Cafe Dolce Gold Coffee, Belgium, 100g",
+        "slug": "cafe-dolce-gold-coffee-belgium-100g",
+        "sku": "6299200045087",
+        "price": 13.99,
+        "originalPrice": 13.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_Supermarket/6299200045087.jpeg",
+        "match_score": 0.8284
+      }
+    ],
+    "product": {
+      "title": "Cafe Dolce Gold Coffee, Belgium, 100g",
+      "slug": "cafe-dolce-gold-coffee-belgium-100g",
+      "sku": "6299200045087",
+      "price": 13.99,
+      "originalPrice": 13.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_Supermarket/6299200045087.jpeg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for gold coffee and weight 100g.",
+      "product": {
+        "title": "Cafe Dolce Gold Coffee, Belgium, 100g",
+        "slug": "cafe-dolce-gold-coffee-belgium-100g",
+        "sku": "6299200045087",
+        "price": 13.99,
+        "originalPrice": 13.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Viva_Supermarket/6299200045087.jpeg",
+        "match_score": 0.8284,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 34,
+    "raw": "PASTA & INSTANT FOODSpaghetti500g",
+    "label": "Spaghetti 500 g",
+    "search_query": "spaghetti 500g",
+    "expected_match": "Spaghetti 500 g",
+    "search_queries_tried": [
+      "spaghetti 500g"
+    ],
+    "match_score": 0.8833,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Finosta Spaghetti, India, 500g",
+        "slug": "finosta-spaghetti-india-500g",
+        "sku": "8908007958121",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958121.jpg",
+        "match_score": 0.8833
+      },
+      {
+        "title": "Arbella Pasta Spaghetti, Turkey, 500g",
+        "slug": "arbella-pasta-spaghetti-turkey-500g",
+        "sku": "8697430885493",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/683337123a18612bfbd982e4.jpg",
+        "match_score": 0.85
+      },
+      {
+        "title": "Arbella Pasta Elbows, Turkey, 500g",
+        "slug": "arbella-pasta-elbows-turkey-500g",
+        "sku": "8697430885400",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336e33a18612bfbd97ddb.jpg",
+        "match_score": 0.462
+      },
+      {
+        "title": "Arbella Pasta Penne Rigatte, Turkey, 500g",
+        "slug": "arbella-pasta-penne-rigatte-turkey-500g",
+        "sku": "8697430885431",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336e33a18612bfbd97ddd.jpg",
+        "match_score": 0.4571
+      },
+      {
+        "title": "Arbella Pasta Fusilli Rotini, Turkey, 500g",
+        "slug": "arbella-pasta-fusilli-rotini-turkey-500g",
+        "sku": "8697430885479",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/62d1077a3c5a941eadd906e8.png",
+        "match_score": 0.4546
+      },
+      {
+        "title": "Giovanni Gnocchi 90% Potato Pasta, Italy, 500g",
+        "slug": "giovanni-gnocchi-90-potato-pasta-italy-500g",
+        "sku": "6299200051026",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6784cecf86e5598cfe9e942e.png",
+        "match_score": 0.4355
+      },
+      {
+        "title": "Antonio Amato Organic Whole Wheat Penne Rigate Pasta - Italy, 500g",
+        "slug": "antonio-amato-organic-whole-wheat-penne-rigate-pasta-italy-500g",
+        "sku": "8008120750807",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/686ccfb7c88288066160cf14.png",
+        "match_score": 0.4068
+      },
+      {
+        "title": "Arbella Spaghetti, Turkey, 1kg",
+        "slug": "arbella-spaghetti-turkey-1kg",
+        "sku": "8697430885752",
+        "price": 5.79,
+        "originalPrice": 5.79,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/8697430885752.png",
+        "match_score": 0.061
+      },
+      {
+        "title": "B'adore Organic Spaghetti Baby Puree, 250g",
+        "slug": "badore-organic-spaghetti-baby-puree-250g",
+        "sku": "6299200059664",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f77ee2baaf72797021830f.jpg",
+        "match_score": 0.0589
+      },
+      {
+        "title": "Fusilli Pasta No. 114, Italy",
+        "slug": "fusilli-pasta-no-114-italy",
+        "sku": "8008120750623",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688399488b4d17c9361c5999.jpg",
+        "match_score": 0.0437
+      },
+      {
+        "title": "Penne Rigate Pasta No.80, Italy",
+        "slug": "penne-rigate-pasta-no80-italy",
+        "sku": "8008120750593",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688399488b4d17c9361c59a3.jpg",
+        "match_score": 0.0318
+      },
+      {
+        "title": "Giovanni Original Passata, Italy, 680g",
+        "slug": "giovanni-original-passata-italy-680g",
+        "sku": "6299200036085",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/676523f7bdd83943824d658f.png",
+        "match_score": 0.0206
+      }
+    ],
+    "matches": [
+      {
+        "title": "Finosta Spaghetti, India, 500g",
+        "slug": "finosta-spaghetti-india-500g",
+        "sku": "8908007958121",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958121.jpg",
+        "match_score": 0.8833
+      },
+      {
+        "title": "Arbella Pasta Spaghetti, Turkey, 500g",
+        "slug": "arbella-pasta-spaghetti-turkey-500g",
+        "sku": "8697430885493",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/683337123a18612bfbd982e4.jpg",
+        "match_score": 0.85
+      }
+    ],
+    "product": {
+      "title": "Finosta Spaghetti, India, 500g",
+      "slug": "finosta-spaghetti-india-500g",
+      "sku": "8908007958121",
+      "price": 2.49,
+      "originalPrice": 2.49,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958121.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for spaghetti and weight 500g.",
+      "product": {
+        "title": "Finosta Spaghetti, India, 500g",
+        "slug": "finosta-spaghetti-india-500g",
+        "sku": "8908007958121",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958121.jpg",
+        "match_score": 0.8833,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 35,
+    "raw": "OILCow ghee1kg",
+    "label": "Cow Ghee 1 kg",
+    "search_query": "cow ghee 1kg",
+    "expected_match": "Cow Ghee 1 kg",
+    "search_queries_tried": [
+      "cow ghee 1kg"
+    ],
+    "match_score": 0.5573,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Milba Cow Ghee, India, 1L",
+        "slug": "milba-cow-ghee-india-1l",
+        "sku": "6299200050630",
+        "price": 26.99,
+        "originalPrice": 28.34,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6458dd728806baece2b8c631.jpg",
+        "match_score": 0.5573
+      },
+      {
+        "title": "Milba Vegetable Ghee, India, 500g",
+        "slug": "milba-vegetable-ghee-india-500g",
+        "sku": "6299200056526",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/Viva/6299200056526.png",
+        "match_score": 0.0198
+      }
+    ],
+    "matches": [
+      {
+        "title": "Milba Cow Ghee, India, 1L",
+        "slug": "milba-cow-ghee-india-1l",
+        "sku": "6299200050630",
+        "price": 26.99,
+        "originalPrice": 28.34,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6458dd728806baece2b8c631.jpg",
+        "match_score": 0.5573
+      }
+    ],
+    "product": {
+      "title": "Milba Cow Ghee, India, 1L",
+      "slug": "milba-cow-ghee-india-1l",
+      "sku": "6299200050630",
+      "price": 26.99,
+      "originalPrice": 28.34,
+      "discountPercentage": 4,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/product-information-management/6458dd728806baece2b8c631.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Correct product type and weight (1L is standard for 1kg ghee).",
+      "product": {
+        "title": "Milba Cow Ghee, India, 1L",
+        "slug": "milba-cow-ghee-india-1l",
+        "sku": "6299200050630",
+        "price": 26.99,
+        "originalPrice": 28.34,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6458dd728806baece2b8c631.jpg",
+        "match_score": 0.5573,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 36,
+    "raw": "FRESH JUICESFresh Pomegranate Juice 1 L1L",
+    "label": "Fresh Pomegranate Juice 1 L",
+    "search_query": "fresh pomegranate juice 1l",
+    "expected_match": "Fresh Pomegranate Juice 1 L",
+    "search_queries_tried": [
+      "fresh pomegranate juice 1l"
+    ],
+    "match_score": 0.6944,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Cipri Pomegranate Juice, Cyprus, 1L",
+        "slug": "cipri-pomegranate-juice-cyprus-1l",
+        "sku": "6299200054331",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE/VIVA/6299200054331.png",
+        "match_score": 0.6944
+      },
+      {
+        "title": "Kitchen Xpress Pomegranate, India, 312g",
+        "slug": "kitchen-xpress-pomegranate-india-312g",
+        "sku": "8901874131024",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/66c598e8aabd63dfb0da9cd9.jpg",
+        "match_score": 0.154
+      }
+    ],
+    "matches": [
+      {
+        "title": "Cipri Pomegranate Juice, Cyprus, 1L",
+        "slug": "cipri-pomegranate-juice-cyprus-1l",
+        "sku": "6299200054331",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE/VIVA/6299200054331.png",
+        "match_score": 0.6944
+      }
+    ],
+    "product": {
+      "title": "Cipri Pomegranate Juice, Cyprus, 1L",
+      "slug": "cipri-pomegranate-juice-cyprus-1l",
+      "sku": "6299200054331",
+      "price": 7.99,
+      "originalPrice": 7.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE/VIVA/6299200054331.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for pomegranate juice and volume 1L.",
+      "product": {
+        "title": "Cipri Pomegranate Juice, Cyprus, 1L",
+        "slug": "cipri-pomegranate-juice-cyprus-1l",
+        "sku": "6299200054331",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/UAE/VIVA/6299200054331.png",
+        "match_score": 0.6944,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 37,
+    "raw": "OILSunflower oil 1 L1L",
+    "label": "Sunflower Oil 1 L",
+    "search_query": "sunflower oil 1l",
+    "expected_match": "Sunflower Oil 1 L",
+    "search_queries_tried": [
+      "sunflower oil 1l"
+    ],
+    "match_score": 0.9045,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Ama Sunflower Oil, Ukraine, 1L",
+        "slug": "ama-sunflower-oil-ukraine-1l",
+        "sku": "6299200001274",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/SSC_PIM_1/6299200001274.jpg",
+        "match_score": 0.9045
+      },
+      {
+        "title": "Fiorentini Blend of Sunflower Oil and Olive Oil, Italy, 1L",
+        "slug": "fiorentini-blend-of-sunflower-oil-and-olive-oil-italy-1l",
+        "sku": "8020927003023",
+        "price": 14.99,
+        "originalPrice": 14.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/673c7d4153a34eb50c5e5f7b.png",
+        "match_score": 0.8056
+      },
+      {
+        "title": "Ama Sunflower Oil, Ukraine, 1.8L",
+        "slug": "ama-sunflower-oil-ukraine-18l",
+        "sku": "6299200005104",
+        "price": 15.99,
+        "originalPrice": 15.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/68136345b27e8ed3a1a048e7.jpg",
+        "match_score": 0.3753
+      },
+      {
+        "title": "Ama Pure Sunflower Oil, Ukraine, 3L",
+        "slug": "ama-pure-sunflower-oil-ukraine-3l",
+        "sku": "6299200036580",
+        "price": 19.99,
+        "originalPrice": 20.99,
+        "discountPercentage": 4,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/61f267989bc32e5f4b1d89f7.jpg",
+        "match_score": 0.1037
+      }
+    ],
+    "matches": [
+      {
+        "title": "Ama Sunflower Oil, Ukraine, 1L",
+        "slug": "ama-sunflower-oil-ukraine-1l",
+        "sku": "6299200001274",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/SSC_PIM_1/6299200001274.jpg",
+        "match_score": 0.9045
+      },
+      {
+        "title": "Fiorentini Blend of Sunflower Oil and Olive Oil, Italy, 1L",
+        "slug": "fiorentini-blend-of-sunflower-oil-and-olive-oil-italy-1l",
+        "sku": "8020927003023",
+        "price": 14.99,
+        "originalPrice": 14.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/673c7d4153a34eb50c5e5f7b.png",
+        "match_score": 0.8056
+      }
+    ],
+    "product": {
+      "title": "Ama Sunflower Oil, Ukraine, 1L",
+      "slug": "ama-sunflower-oil-ukraine-1l",
+      "sku": "6299200001274",
+      "price": 8.99,
+      "originalPrice": 8.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://images.deliveryhero.io/image/talabat-nv/SSC_PIM_1/6299200001274.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for sunflower oil and volume 1L.",
+      "product": {
+        "title": "Ama Sunflower Oil, Ukraine, 1L",
+        "slug": "ama-sunflower-oil-ukraine-1l",
+        "sku": "6299200001274",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/SSC_PIM_1/6299200001274.jpg",
+        "match_score": 0.9045,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 38,
+    "raw": "CLEANING TOOLS & DISPOSABLESGarbage bags 30gal20bag",
+    "label": "Garbage Bags 30 gal 20 Pack",
+    "search_query": "garbage bags 30gal 20pack",
+    "expected_match": "Garbage Bags 30 gal 20 Pack",
+    "search_queries_tried": [
+      "garbage bags 30gal 20pack"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Ora Biodegradable Garbage Bags, 10 Gallons, 30 Bags",
+        "slug": "ora-biodegradable-garbage-bags-10-gallons-30-bags",
+        "sku": "6299200063074",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688a0dad5520a948897bbc9b.jpg",
+        "match_score": 0.5142
+      },
+      {
+        "title": "Ora Biodegradable Drawstring Garbage Bags, 30 Gallons, 20 Bags",
+        "slug": "ora-biodegradable-drawstring-garbage-bags-30-gallons-20-bags",
+        "sku": "6299200063128",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688a0dad5520a948897bbc95.jpg",
+        "match_score": 0.5062
+      },
+      {
+        "title": "Ora Garbage Bags Lavender Scent, UAE, 10 Gal, Size 54x60cm, 30 Pieces",
+        "slug": "ora-garbage-bags-lavender-scent-uae-10-gal-size-54x60cm-30-pieces",
+        "sku": "6299200035408",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/UAE_Images/61c06e52bfa1a8dd48ad60b9.jpg",
+        "match_score": 0.4883
+      },
+      {
+        "title": "Ora Heavy Duty Bio-Degradable Garbage Bags UAE, 67 Gallons, 10 Pieces",
+        "slug": "ora-heavy-duty-bio-degradable-garbage-bags-uae-67-gallons-10-pieces",
+        "sku": "6299200054997",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68837f178b4d17c9361adef5.jpg",
+        "match_score": 0.4772
+      },
+      {
+        "title": "Ora Heavy-Duty Biodegradable Garbage Bags, 22 Gallons",
+        "slug": "ora-heavy-duty-biodegradable-garbage-bags-22-gallons",
+        "sku": "6299200063111",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688a12d8d09da7eacf869509.jpg",
+        "match_score": 0.4705
+      },
+      {
+        "title": "Ora Heavy-Duty Biodegradable Garbage Bags, 67 Gallons",
+        "slug": "ora-heavy-duty-biodegradable-garbage-bags-67-gallons",
+        "sku": "6299200063142",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688a12d8d09da7eacf86950a.jpg",
+        "match_score": 0.4705
+      },
+      {
+        "title": "Ora Eco-Friendly & Biodegradable 10 Gallons XS Garbage Bags Lavender Scented, 30 count",
+        "slug": "ora-eco-friendly-biodegradable-10-gallons-xs-garbage-bags-lavender-scented-30-count",
+        "sku": "6299200063098",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/686cf51d9707b07f3f01518c.jpg",
+        "match_score": 0.4352
+      },
+      {
+        "title": "Ora Eco-Friendly & Biodegradable 10 Gallons XS Garbage Bags Lavender Scented, 30 count",
+        "slug": "ora-eco-friendly-biodegradable-10-gallons-xs-garbage-bags-lavender-scented-30-count",
+        "sku": "6299200063081",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/686cf51d9707b07f3f015189.jpg",
+        "match_score": 0.4352
+      },
+      {
+        "title": "Ora Eco-Friendly & Biodegradable 10 Gallons XS Garbage Bags Strawberry Scent, 30 count",
+        "slug": "ora-eco-friendly-biodegradable-10-gallons-xs-garbage-bags-strawberry-scent-30-count",
+        "sku": "6299200063104",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/686cf51d9707b07f3f01518a.jpg",
+        "match_score": 0.4352
+      },
+      {
+        "title": "Garbage Gags Drawstring 55 Gallons 80x110cm, UAE, 15 Pieces",
+        "slug": "garbage-gags-drawstring-55-gallons-80x110cm-uae-15-pieces",
+        "sku": "6299200007290",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6669f956a2615f3e540a1fa7.jpg",
+        "match_score": 0.1623
+      }
+    ],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio.",
+    "gemini": {
+      "choice_index": 2,
+      "reason": "Exact match for capacity 30 gallons and count 20 bags.",
+      "product": {
+        "title": "Ora Biodegradable Drawstring Garbage Bags, 30 Gallons, 20 Bags",
+        "slug": "ora-biodegradable-drawstring-garbage-bags-30-gallons-20-bags",
+        "sku": "6299200063128",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688a0dad5520a948897bbc95.jpg",
+        "match_score": 0.5062,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 39,
+    "raw": "MILK & YOGURTLow Fat Yoghurt 1kg1kg",
+    "label": "Low Fat Yoghurt 1 kg",
+    "search_query": "low fat yoghurt 1kg",
+    "expected_match": "Low Fat Yoghurt 1 kg",
+    "search_queries_tried": [
+      "low fat yoghurt 1kg"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Milba Full Cream Natural Yoghurt, UAE, 1kg",
+        "slug": "milba-full-cream-natural-yoghurt-uae-1kg",
+        "sku": "6299200051545",
+        "price": 4.49,
+        "originalPrice": 4.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/109583.png",
+        "match_score": 0.5267
+      },
+      {
+        "title": "Natural Yoghurt Drink, Spain, 188ml",
+        "slug": "natural-yoghurt-drink-spain-188ml",
+        "sku": "8410128770129",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6784cce254b217e9d233fa93.png",
+        "match_score": 0.1167
+      },
+      {
+        "title": "Pascual Banana Creamy Yoghurt, Spain, 188ml",
+        "slug": "pascual-banana-creamy-yoghurt-spain-188ml",
+        "sku": "8410128770099",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6784cc97caf9c153cd62293e.png",
+        "match_score": 0.1131
+      },
+      {
+        "title": "Pascual Creamy Pasteurized Banana Yogurt, 750ml",
+        "slug": "pascual-creamy-pasteurized-banana-yogurt-750ml",
+        "sku": "8410128416263",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68beca1f754b2cdae920337a.JPG",
+        "match_score": 0.0465
+      },
+      {
+        "title": "Safa Laban Up Drink, UAE, 12x200ml",
+        "slug": "safa-laban-up-drink-uae-12x200ml",
+        "sku": "6291044112314",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6995810d784ed5f2351eae9d.png",
+        "match_score": 0.0346
+      },
+      {
+        "title": "Safa Sweet Lassi Laban Up Drink, 200ml",
+        "slug": "safa-sweet-lassi-laban-up-drink-200ml",
+        "sku": "6291044444910",
+        "price": 0.99,
+        "originalPrice": 0.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/69949ad8538e724f42353fef.png",
+        "match_score": 0.0315
+      },
+      {
+        "title": "Safa Laban Up Sweet Lassi, UAE, 12x200ml",
+        "slug": "safa-laban-up-sweet-lassi-uae-12x200ml",
+        "sku": "6291044000000",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6995810d784ed5f2351eae9e.png",
+        "match_score": 0.0309
+      },
+      {
+        "title": "Pascual Strawberry Creamy Yoghurt, Spain, 125g",
+        "slug": "pascual-strawberry-creamy-yoghurt-spain-125g",
+        "sku": "8410128770068",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6784cf4f86e5598cfe9e9a44.png",
+        "match_score": 0.0198
+      },
+      {
+        "title": "Bauer Assorted Mango 0.1% Yoghurt, Germany, 500g",
+        "slug": "bauer-assorted-mango-01-yoghurt-germany-500g",
+        "sku": "4002334116293",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67e3cb64c0d0b8725896fa5f.png",
+        "match_score": 0.0183
+      },
+      {
+        "title": "Movenpick Plain Greek Style Yoghurt, Germany, 400g",
+        "slug": "movenpick-plain-greek-style-yoghurt-germany-400g",
+        "sku": "4002334115401",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cea786e5598cfe9e93d4.png",
+        "match_score": 0.0179
+      },
+      {
+        "title": "Movenpick Strawberry Greek Style Yoghurt, Germany, 100g",
+        "slug": "movenpick-strawberry-greek-style-yoghurt-germany-100g",
+        "sku": "4002334115456",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/67e3cb62c0d0b8725896fa31.png",
+        "match_score": 0.0168
+      },
+      {
+        "title": "Bauer Strawberry Yogurt 0.1% Fat, 500g",
+        "slug": "bauer-strawberry-yogurt-01-fat-500g",
+        "sku": "4002334105907",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f09e66274122eaf42b95fc.jpg",
+        "match_score": 0.0151
+      }
+    ],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio.",
+    "gemini": {
+      "choice_index": 0,
+      "reason": "No low fat yoghurt matches found; candidate 1 is full cream.",
+      "product": null,
+      "skipped": true
+    }
+  },
+  {
+    "line": 40,
+    "raw": "CLEANING TOOLS & DISPOSABLESGarbage bags 10gal30bag",
+    "label": "Garbage Bags 10 gal 30 Pack",
+    "search_query": "garbage bags 10gal 30pack",
+    "expected_match": "Garbage Bags 10 gal 30 Pack",
+    "search_queries_tried": [
+      "garbage bags 10gal 30pack"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Ora Biodegradable Garbage Bags, 10 Gallons, 30 Bags",
+        "slug": "ora-biodegradable-garbage-bags-10-gallons-30-bags",
+        "sku": "6299200063074",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688a0dad5520a948897bbc9b.jpg",
+        "match_score": 0.5331
+      },
+      {
+        "title": "Ora Garbage Bags Lemon Scent, UAE, 10 Gal, Size 54x60cm, 30 Pieces",
+        "slug": "ora-garbage-bags-lemon-scent-uae-10-gal-size-54x60cm-30-pieces",
+        "sku": "6299200035415",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/UAE_Images/61c06e52bfa1a8dd48ad60bb.jpg",
+        "match_score": 0.5101
+      },
+      {
+        "title": "Ora Garbage Bags Lavender Scent, UAE, 10 Gal, Size 54x60cm, 30 Pieces",
+        "slug": "ora-garbage-bags-lavender-scent-uae-10-gal-size-54x60cm-30-pieces",
+        "sku": "6299200035408",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/UAE_Images/61c06e52bfa1a8dd48ad60b9.jpg",
+        "match_score": 0.5039
+      },
+      {
+        "title": "Ora Biodegradable Drawstring Garbage Bags, 30 Gallons, 20 Bags",
+        "slug": "ora-biodegradable-drawstring-garbage-bags-30-gallons-20-bags",
+        "sku": "6299200063128",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688a0dad5520a948897bbc95.jpg",
+        "match_score": 0.4897
+      },
+      {
+        "title": "Ora Heavy Duty Bio-Degradable Garbage Bags UAE, 67 Gallons, 10 Pieces",
+        "slug": "ora-heavy-duty-bio-degradable-garbage-bags-uae-67-gallons-10-pieces",
+        "sku": "6299200054997",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68837f178b4d17c9361adef5.jpg",
+        "match_score": 0.4772
+      },
+      {
+        "title": "Ora Heavy-Duty Biodegradable Garbage Bags, 22 Gallons",
+        "slug": "ora-heavy-duty-biodegradable-garbage-bags-22-gallons",
+        "sku": "6299200063111",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688a12d8d09da7eacf869509.jpg",
+        "match_score": 0.4705
+      },
+      {
+        "title": "Ora Heavy-Duty Biodegradable Garbage Bags, 67 Gallons",
+        "slug": "ora-heavy-duty-biodegradable-garbage-bags-67-gallons",
+        "sku": "6299200063142",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688a12d8d09da7eacf86950a.jpg",
+        "match_score": 0.4705
+      },
+      {
+        "title": "Ora Eco-Friendly & Biodegradable 10 Gallons XS Garbage Bags Lavender Scented, 30 count",
+        "slug": "ora-eco-friendly-biodegradable-10-gallons-xs-garbage-bags-lavender-scented-30-count",
+        "sku": "6299200063098",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/686cf51d9707b07f3f01518c.jpg",
+        "match_score": 0.4417
+      },
+      {
+        "title": "Ora Eco-Friendly & Biodegradable 10 Gallons XS Garbage Bags Lavender Scented, 30 count",
+        "slug": "ora-eco-friendly-biodegradable-10-gallons-xs-garbage-bags-lavender-scented-30-count",
+        "sku": "6299200063081",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/686cf51d9707b07f3f015189.jpg",
+        "match_score": 0.4417
+      },
+      {
+        "title": "Ora Eco-Friendly & Biodegradable 10 Gallons XS Garbage Bags Strawberry Scent, 30 count",
+        "slug": "ora-eco-friendly-biodegradable-10-gallons-xs-garbage-bags-strawberry-scent-30-count",
+        "sku": "6299200063104",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/686cf51d9707b07f3f01518a.jpg",
+        "match_score": 0.4417
+      },
+      {
+        "title": "Garbage Gags Drawstring 55 Gallons 80x110cm, UAE, 15 Pieces",
+        "slug": "garbage-gags-drawstring-55-gallons-80x110cm-uae-15-pieces",
+        "sku": "6299200007290",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/6669f956a2615f3e540a1fa7.jpg",
+        "match_score": 0.1623
+      }
+    ],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio.",
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for capacity 10 gallons and count 30 bags.",
+      "product": {
+        "title": "Ora Biodegradable Garbage Bags, 10 Gallons, 30 Bags",
+        "slug": "ora-biodegradable-garbage-bags-10-gallons-30-bags",
+        "sku": "6299200063074",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688a0dad5520a948897bbc9b.jpg",
+        "match_score": 0.5331,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 41,
+    "raw": "MILK & YOGURTFull cream milk 1L1L",
+    "label": "Full Cream Milk 1 L",
+    "search_query": "full cream milk 1l",
+    "expected_match": "Full Cream Milk 1 L",
+    "search_queries_tried": [
+      "full cream milk 1l"
+    ],
+    "match_score": 0.8791,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Frischli Long Life Full Cream Milk, 1L",
+        "slug": "frischli-long-life-full-cream-milk-1l",
+        "sku": "4045500034052",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/689aef78e9fdfac165d32455.jpg",
+        "match_score": 0.8791
+      },
+      {
+        "title": "Milba Full Fat Fresh Milk, UAE, 1L",
+        "slug": "milba-full-fat-fresh-milk-uae-1l",
+        "sku": "6299200051507",
+        "price": 5.49,
+        "originalPrice": 5.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/109579.png",
+        "match_score": 0.6433
+      },
+      {
+        "title": "Milba Milk Uht Full Fat Original, Germany, 1L",
+        "slug": "milba-milk-uht-full-fat-original-germany-1l",
+        "sku": "6299200005708",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/687a151763f3b2a164caca39.jpg",
+        "match_score": 0.5481
+      },
+      {
+        "title": "Milba UHT Low Fat Milk, Germany, 1L",
+        "slug": "milba-uht-low-fat-milk-germany-1l",
+        "sku": "6299200005692",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/65f2305a60d824a27a10c07c.jpg",
+        "match_score": 0.177
+      },
+      {
+        "title": "Milba Full Cream Fresh Milk, UAE, 2L",
+        "slug": "milba-full-cream-fresh-milk-uae-2l",
+        "sku": "6299200051521",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/64804b712d4391fbaf711ab1.png",
+        "match_score": 0.1055
+      }
+    ],
+    "matches": [
+      {
+        "title": "Frischli Long Life Full Cream Milk, 1L",
+        "slug": "frischli-long-life-full-cream-milk-1l",
+        "sku": "4045500034052",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/689aef78e9fdfac165d32455.jpg",
+        "match_score": 0.8791
+      },
+      {
+        "title": "Milba Full Fat Fresh Milk, UAE, 1L",
+        "slug": "milba-full-fat-fresh-milk-uae-1l",
+        "sku": "6299200051507",
+        "price": 5.49,
+        "originalPrice": 5.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/109579.png",
+        "match_score": 0.6433
+      }
+    ],
+    "product": {
+      "title": "Frischli Long Life Full Cream Milk, 1L",
+      "slug": "frischli-long-life-full-cream-milk-1l",
+      "sku": "4045500034052",
+      "price": 4.99,
+      "originalPrice": 4.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/product-information-management/689aef78e9fdfac165d32455.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for full cream milk and volume 1L.",
+      "product": {
+        "title": "Frischli Long Life Full Cream Milk, 1L",
+        "slug": "frischli-long-life-full-cream-milk-1l",
+        "sku": "4045500034052",
+        "price": 4.99,
+        "originalPrice": 4.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/689aef78e9fdfac165d32455.jpg",
+        "match_score": 0.8791,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 42,
+    "raw": "CHEESE & BUTTERButter salted200g",
+    "label": "Butter Salted 200 g",
+    "search_query": "butter salted 200g",
+    "expected_match": "Butter Salted 200 g",
+    "search_queries_tried": [
+      "butter salted 200g"
+    ],
+    "match_score": 0.902,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Milba Butter Salted, Germany, 200g",
+        "slug": "milba-butter-salted-germany-200g",
+        "sku": "6299200031912",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cf2186e5598cfe9e97b1.png",
+        "match_score": 0.902
+      },
+      {
+        "title": "Milba Butter Unsalted, Germany, 200g",
+        "slug": "milba-butter-unsalted-germany-200g",
+        "sku": "6299200031905",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cf2186e5598cfe9e97b3.png",
+        "match_score": 0.8923
+      },
+      {
+        "title": "Ferma Ferma Butter Salted, Ukraine, 200g",
+        "slug": "ferma-ferma-butter-salted-ukraine-200g",
+        "sku": "4820200487359",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cb8c54b217e9d233fa5f.png",
+        "match_score": 0.875
+      },
+      {
+        "title": "Ferma Ferma Butter Unsalted, Ukraine, 200g",
+        "slug": "ferma-ferma-butter-unsalted-ukraine-200g",
+        "sku": "4820200486802",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cba8caf9c153cd6228d9.png",
+        "match_score": 0.8672
+      },
+      {
+        "title": "Asturiana Traditional Salted Butter, Spain, 200g",
+        "slug": "asturiana-traditional-salted-butter-spain-200g",
+        "sku": "8410297604089",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/68839a898b4d17c9361c8ba6.jpg",
+        "match_score": 0.8031
+      },
+      {
+        "title": "Asturiana Mantequilla Unsalted Butter, Spain, 200g",
+        "slug": "asturiana-mantequilla-unsalted-butter-spain-200g",
+        "sku": "8410297604096",
+        "price": 9.99,
+        "originalPrice": 9.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/68839a8a8b4d17c9361c8ba8.jpg",
+        "match_score": 0.7985
+      },
+      {
+        "title": "Meggle Garlic Butter, Germany, 125g",
+        "slug": "meggle-garlic-butter-germany-125g",
+        "sku": "40349275",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784ceec86e5598cfe9e9470.png",
+        "match_score": 0.0772
+      }
+    ],
+    "matches": [
+      {
+        "title": "Milba Butter Salted, Germany, 200g",
+        "slug": "milba-butter-salted-germany-200g",
+        "sku": "6299200031912",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cf2186e5598cfe9e97b1.png",
+        "match_score": 0.902
+      },
+      {
+        "title": "Milba Butter Unsalted, Germany, 200g",
+        "slug": "milba-butter-unsalted-germany-200g",
+        "sku": "6299200031905",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cf2186e5598cfe9e97b3.png",
+        "match_score": 0.8923
+      },
+      {
+        "title": "Ferma Ferma Butter Salted, Ukraine, 200g",
+        "slug": "ferma-ferma-butter-salted-ukraine-200g",
+        "sku": "4820200487359",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cb8c54b217e9d233fa5f.png",
+        "match_score": 0.875
+      }
+    ],
+    "product": {
+      "title": "Milba Butter Salted, Germany, 200g",
+      "slug": "milba-butter-salted-germany-200g",
+      "sku": "6299200031912",
+      "price": 10.99,
+      "originalPrice": 10.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://images.deliveryhero.io/image/product-information-management/6784cf2186e5598cfe9e97b1.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for salted butter and weight 200g.",
+      "product": {
+        "title": "Milba Butter Salted, Germany, 200g",
+        "slug": "milba-butter-salted-germany-200g",
+        "sku": "6299200031912",
+        "price": 10.99,
+        "originalPrice": 10.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/6784cf2186e5598cfe9e97b1.png",
+        "match_score": 0.902,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 43,
+    "raw": "CLEANING TOOLS & DISPOSABLESSoft facial tissue1 x 5pack",
+    "label": "Soft Facial Tissue 5 Pack",
+    "search_query": "soft facial tissue 5pack",
+    "expected_match": "Soft Facial Tissue 5 Pack",
+    "search_queries_tried": [
+      "soft facial tissue 5pack"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio."
+  },
+  {
+    "line": 44,
+    "raw": "CABBAGE & GOURDSCauliflower1kg",
+    "label": "Cauliflower 1 kg",
+    "search_query": "cauliflower 1kg",
+    "expected_match": "Cauliflower 1 kg",
+    "search_queries_tried": [
+      "cauliflower 1kg"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "B'adore Pear Broccoli Baby Food Puree, 100g",
+        "slug": "badore-pear-broccoli-baby-food-puree-100g",
+        "sku": "6299200057271",
+        "price": 5.99,
+        "originalPrice": 5.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68f09e66274122eaf42b95f9.jpg",
+        "match_score": 0.0066
+      }
+    ],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio.",
+    "gemini": {
+      "choice_index": 0,
+      "reason": "Candidate is baby food puree, not fresh cauliflower.",
+      "product": null,
+      "skipped": true
+    }
+  },
+  {
+    "line": 45,
+    "raw": "SAUCES & SEASONINGTomato ketchup500ml",
+    "label": "Tomato Ketchup 500 ml",
+    "search_query": "tomato ketchup 500ml",
+    "expected_match": "Tomato Ketchup 500 ml",
+    "search_queries_tried": [
+      "tomato ketchup 500ml"
+    ],
+    "match_score": 0.9192,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Ama Tomato Ketchup, Belgium, 500ml",
+        "slug": "ama-tomato-ketchup-belgium-500ml",
+        "sku": "6299200002844",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/UAE/VIVA/6299200002844.jpg",
+        "match_score": 0.9192
+      },
+      {
+        "title": "Remia Tomato Ketchup, Netherlands, 750ml",
+        "slug": "remia-tomato-ketchup-netherlands-750ml",
+        "sku": "8710448563334",
+        "price": 11.99,
+        "originalPrice": 11.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683472ffde1a5d2593413b0d.png",
+        "match_score": 0.2783
+      },
+      {
+        "title": "Ama Pizza Ketchup, Bosnia and Herzegovina, 1kg",
+        "slug": "ama-pizza-ketchup-bosnia-and-herzegovina-1kg",
+        "sku": "6299200049801",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/Regional_Images/Travel_Fest/6299200049801.png",
+        "match_score": 0.1213
+      }
+    ],
+    "matches": [
+      {
+        "title": "Ama Tomato Ketchup, Belgium, 500ml",
+        "slug": "ama-tomato-ketchup-belgium-500ml",
+        "sku": "6299200002844",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/UAE/VIVA/6299200002844.jpg",
+        "match_score": 0.9192
+      }
+    ],
+    "product": {
+      "title": "Ama Tomato Ketchup, Belgium, 500ml",
+      "slug": "ama-tomato-ketchup-belgium-500ml",
+      "sku": "6299200002844",
+      "price": 7.99,
+      "originalPrice": 7.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://images.deliveryhero.io/image/talabat-nv/UAE/VIVA/6299200002844.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for tomato ketchup and volume 500ml.",
+      "product": {
+        "title": "Ama Tomato Ketchup, Belgium, 500ml",
+        "slug": "ama-tomato-ketchup-belgium-500ml",
+        "sku": "6299200002844",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/talabat-nv/UAE/VIVA/6299200002844.jpg",
+        "match_score": 0.9192,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 46,
+    "raw": "FLOURChakki atta5kg",
+    "label": "Chakki Atta 5 kg",
+    "search_query": "chakki atta 5kg",
+    "expected_match": "Chakki Atta 5 kg",
+    "search_queries_tried": [
+      "chakki atta 5kg"
+    ],
+    "match_score": 0.8886,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Eatistaan Chakki Atta, UAE, 5kg",
+        "slug": "eatistaan-chakki-atta-uae-5kg",
+        "sku": "6299200053136",
+        "price": 14.99,
+        "originalPrice": 14.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68837ef38b4d17c9361ad4db.jpg",
+        "match_score": 0.8886
+      },
+      {
+        "title": "Eatistaan Chakki Atta, UAE, 2kg",
+        "slug": "eatistaan-chakki-atta-uae-2kg",
+        "sku": "6299200058285",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/Viva/6299200058285.png",
+        "match_score": 0.0787
+      },
+      {
+        "title": "Ama Maida Flour No 1, UAE, 2kg",
+        "slug": "ama-maida-flour-no-1-uae-2kg",
+        "sku": "6299200021951",
+        "price": 7.99,
+        "originalPrice": 7.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/Grocery/VIVA/6299200021951.jpg",
+        "match_score": 0.0049
+      }
+    ],
+    "matches": [
+      {
+        "title": "Eatistaan Chakki Atta, UAE, 5kg",
+        "slug": "eatistaan-chakki-atta-uae-5kg",
+        "sku": "6299200053136",
+        "price": 14.99,
+        "originalPrice": 14.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68837ef38b4d17c9361ad4db.jpg",
+        "match_score": 0.8886
+      }
+    ],
+    "product": {
+      "title": "Eatistaan Chakki Atta, UAE, 5kg",
+      "slug": "eatistaan-chakki-atta-uae-5kg",
+      "sku": "6299200053136",
+      "price": 14.99,
+      "originalPrice": 14.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/product-information-management/68837ef38b4d17c9361ad4db.jpg"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for chakki atta and weight 5kg.",
+      "product": {
+        "title": "Eatistaan Chakki Atta, UAE, 5kg",
+        "slug": "eatistaan-chakki-atta-uae-5kg",
+        "sku": "6299200053136",
+        "price": 14.99,
+        "originalPrice": 14.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/68837ef38b4d17c9361ad4db.jpg",
+        "match_score": 0.8886,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 47,
+    "raw": "BREADLarge brown bread600g",
+    "label": "Large Brown Bread 600 g",
+    "search_query": "large brown bread 600g",
+    "expected_match": "Large Brown Bread 600 g",
+    "search_queries_tried": [
+      "large brown bread 600g"
+    ],
+    "match_score": 0.6522,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Cottage Loaf Arabic Bread White Large, UAE, 600g",
+        "slug": "cottage-loaf-arabic-bread-white-large-uae-600g",
+        "sku": "6299200035811",
+        "price": 1.99,
+        "originalPrice": 1.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200035811.jpg",
+        "match_score": 0.6522
+      },
+      {
+        "title": "Modern Bakery Medium White Sliced Bread, UAE, 650g",
+        "slug": "modern-bakery-medium-white-sliced-bread-uae-650g",
+        "sku": "1110000130191",
+        "price": 2.99,
+        "originalPrice": 2.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/Images/QC_Standard_Images/KWZOF77T.png",
+        "match_score": 0.1512
+      }
+    ],
+    "matches": [
+      {
+        "title": "Cottage Loaf Arabic Bread White Large, UAE, 600g",
+        "slug": "cottage-loaf-arabic-bread-white-large-uae-600g",
+        "sku": "6299200035811",
+        "price": 1.99,
+        "originalPrice": 1.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200035811.jpg",
+        "match_score": 0.6522
+      }
+    ],
+    "product": {
+      "title": "Cottage Loaf Arabic Bread White Large, UAE, 600g",
+      "slug": "cottage-loaf-arabic-bread-white-large-uae-600g",
+      "sku": "6299200035811",
+      "price": 1.99,
+      "originalPrice": 1.99,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/talabat-nv/UAE/VIVA/6299200035811.jpg"
+    },
+    "gemini": {
+      "choice_index": 0,
+      "reason": "No brown bread candidates; candidates are white bread.",
+      "product": null,
+      "skipped": true
+    }
+  },
+  {
+    "line": 48,
+    "raw": "PASTA & INSTANT FOODFusilli500g",
+    "label": "Fusilli 500 g",
+    "search_query": "fusilli 500g",
+    "expected_match": "Fusilli 500 g",
+    "search_queries_tried": [
+      "fusilli 500g"
+    ],
+    "match_score": 0.8711,
+    "top_k": 3,
+    "candidate_pool": [
+      {
+        "title": "Finosta Fusilli, India, 500g",
+        "slug": "finosta-fusilli-india-500g",
+        "sku": "8908007958015",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958015.png",
+        "match_score": 0.8711
+      },
+      {
+        "title": "Arbella Pasta Fusilli Rotini, Turkey, 500g",
+        "slug": "arbella-pasta-fusilli-rotini-turkey-500g",
+        "sku": "8697430885479",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/62d1077a3c5a941eadd906e8.png",
+        "match_score": 0.8115
+      },
+      {
+        "title": "Fusilli Pasta No. 114, Italy",
+        "slug": "fusilli-pasta-no-114-italy",
+        "sku": "8008120750623",
+        "price": 3.99,
+        "originalPrice": 3.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/688399488b4d17c9361c5999.jpg",
+        "match_score": 0.4724
+      },
+      {
+        "title": "Finosta Penne Rigate, India, 500g",
+        "slug": "finosta-penne-rigate-india-500g",
+        "sku": "8908007958008",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958008.png",
+        "match_score": 0.4715
+      },
+      {
+        "title": "Arbella Pasta Spaghetti, Turkey, 500g",
+        "slug": "arbella-pasta-spaghetti-turkey-500g",
+        "sku": "8697430885493",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://images.deliveryhero.io/image/product-information-management/683337123a18612bfbd982e4.jpg",
+        "match_score": 0.4441
+      },
+      {
+        "title": "Arbella Pasta Elbows, Turkey, 500g",
+        "slug": "arbella-pasta-elbows-turkey-500g",
+        "sku": "8697430885400",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336e33a18612bfbd97ddb.jpg",
+        "match_score": 0.4364
+      },
+      {
+        "title": "Arbella Pasta Penne Rigatte, Turkey, 500g",
+        "slug": "arbella-pasta-penne-rigatte-turkey-500g",
+        "sku": "8697430885431",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336e33a18612bfbd97ddd.jpg",
+        "match_score": 0.4348
+      },
+      {
+        "title": "Antonio Amato Lasagna Sheets - Italy, 500g",
+        "slug": "antonio-amato-lasagna-sheets-italy-500g",
+        "sku": "8008120750692",
+        "price": 8.99,
+        "originalPrice": 8.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/686cd0a2c88288066160cf18.png",
+        "match_score": 0.4348
+      },
+      {
+        "title": "Antonio Amato Organic Whole Wheat Penne Rigate Pasta - Italy, 500g",
+        "slug": "antonio-amato-organic-whole-wheat-penne-rigate-pasta-italy-500g",
+        "sku": "8008120750807",
+        "price": 6.99,
+        "originalPrice": 6.99,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/686ccfb7c88288066160cf14.png",
+        "match_score": 0.3997
+      },
+      {
+        "title": "Arbella Tagliatelle Pasta, Turkey, 400g",
+        "slug": "arbella-tagliatelle-pasta-turkey-400g",
+        "sku": "8697430888593",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/683336c63a18612bfbd97b5a.jpg",
+        "match_score": 0.021
+      },
+      {
+        "title": "Arbella Penne Rigate Pasta, Turkey, 1kg",
+        "slug": "arbella-penne-rigate-pasta-turkey-1kg",
+        "sku": "8697430882126",
+        "price": 5.79,
+        "originalPrice": 5.79,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images/8697430882126.png",
+        "match_score": 0.0043
+      }
+    ],
+    "matches": [
+      {
+        "title": "Finosta Fusilli, India, 500g",
+        "slug": "finosta-fusilli-india-500g",
+        "sku": "8908007958015",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958015.png",
+        "match_score": 0.8711
+      },
+      {
+        "title": "Arbella Pasta Fusilli Rotini, Turkey, 500g",
+        "slug": "arbella-pasta-fusilli-rotini-turkey-500g",
+        "sku": "8697430885479",
+        "price": 3.29,
+        "originalPrice": 3.29,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/product-information-management/62d1077a3c5a941eadd906e8.png",
+        "match_score": 0.8115
+      }
+    ],
+    "product": {
+      "title": "Finosta Fusilli, India, 500g",
+      "slug": "finosta-fusilli-india-500g",
+      "sku": "8908007958015",
+      "price": 2.49,
+      "originalPrice": 2.49,
+      "discountPercentage": 0,
+      "stockAmount": 20,
+      "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958015.png"
+    },
+    "gemini": {
+      "choice_index": 1,
+      "reason": "Exact match for fusilli and weight 500g.",
+      "product": {
+        "title": "Finosta Fusilli, India, 500g",
+        "slug": "finosta-fusilli-india-500g",
+        "sku": "8908007958015",
+        "price": 2.49,
+        "originalPrice": 2.49,
+        "discountPercentage": 0,
+        "stockAmount": 20,
+        "image": "https://talabat.dhmedia.io/image/talabat-nv/Regional_Images_2024/8908007958015.png",
+        "match_score": 0.8711,
+        "source": "gemini_rerank"
+      }
+    }
+  },
+  {
+    "line": 49,
+    "raw": "CLEANING TOOLS & DISPOSABLESFacial Tissue 5x2005 x 200pack",
+    "label": "Facial Tissue 5 x 200 Pack",
+    "search_query": "facial tissue 5 x 200pack",
+    "expected_match": "Facial Tissue 5 x 200 Pack",
+    "search_queries_tried": [
+      "facial tissue 5 x 200pack"
+    ],
+    "match_score": null,
+    "top_k": 3,
+    "candidate_pool": [],
+    "matches": [],
+    "product": null,
+    "note": "No API product above similarity threshold; try manual search or lower min_ratio."
+  }
+]

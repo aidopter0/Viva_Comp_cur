@@ -1,0 +1,50 @@
+line,raw,expected,match_score_best,match_1_title,match_1_price,match_1_score,match_1_sku,match_1_stock,match_2_title,match_2_price,match_2_score,match_2_sku,match_2_stock,match_3_title,match_3_price,match_3_score,match_3_sku,match_3_stock
+1,EGGS 2White eggs 30's (S)30pc,White Eggs Small 30 Pack,0.4971,"Farm Fresh Medium White Eggs, 30 Pieces",18.5,0.4971,6291079218258,20,,,,,,,,,,
+2,BANANABanana Premium1kg,Banana Premium 1 kg,0.9,"Shallot Banana, 1kg",29.95,0.9,2014370000001,20,,,,,,,,,,
+3,OILSunflower oil 5 L5L,Sunflower Oil 5 L,0.9061,Lesieur  Sunflower Oil 2.L,32.5,0.9061,3265474610002,20,,,,,,,,,,
+4,RICEJasmine Rice5kg,Jasmine Rice 5 kg,0.9105,Pearl Swan Jasmine Rice 5kg,27.75,0.9105,105010231915,20,Golden Swan Jasmin Rice 5kg,29.5,0.6775,641995008307,20,"Tilda Basmati Rice, 5kg",72.25,0.6728,8901144100507,20
+5,FRESH JUICESFresh orange juice 1L1L,Fresh Orange Juice 1 L,0.944,"Barakat Fresh Orange Juice, 1L",24.95,0.944,6291100931514,20,Lacnor Orange Juice 1 ltr,7.5,0.692,6291016111017,20,FRESH WATERMELON JUICE,10.95,0.6612,6291100931033,20
+6,TOMATO & PEPPERTomato1kg,Tomato 1 kg,0.85,"Tomato Round Selected, 1kg",6.95,0.85,2008020000008,20,"Tomato Bunch Import, 1kg",19.95,0.8621,2008050000009,20,"Heinz Tomato Ketchup, 1kg",29,0.8559,6290090033239,20
+7,WATERBottle water6 x 1.5L,Bottle Water 6 x 1.5 L,0.8875,"Hello Bottled Drinking Water, 6x1.5L",6.95,0.8875,2050000333392,20,Mai Dubai Water 6 x 1.5 L,4.95,0.5685,6514747001625,20,,,,,
+8,MILK & YOGURTFull cream milk 2l2L,Full Cream Milk 2 L,0.6375,"Almarai Fresh Full Fat Milk, 2L",12.75,0.6375,6281007120401,20,,,,,,,,,,
+9,PROTEINSWhole chicken 900g900g,Whole Chicken 900 g,0.533,"Farm Fresh Frozen Whole Chicken Griller, 1000g",14.75,0.533,6291079250234,20,,,,,,,,,,
+10,PROTEINSWhole chicken 1kg1000g,Whole Chicken 1 kg,0.9032,"Alyoum Fresh Whole Chicken, 1kg",25.75,0.9032,6281101340538,20,"Al Rawdah Fresh Whole Chicken, 1kg",27.75,0.888,6291038010008,20,"Al Khazna Chicken Fresh Whole Chicken, 1kg",28.95,0.8552,6291003293764,20
+11,APPLE & PEARApple Royal Gala1kg,Apple Royal Gala 1 kg,0.863,"Royal Gala Apple - Italy, 1kg",12.95,0.863,2028820000008,20,"Apple Red - Usa, 1kg",12.95,0.5709,2000050000003,20,"Apple Fuji Large, 1kg",12.95,0.5525,2000300000005,20
+12,MILK & YOGURTFull cream yoghurt 1kg1kg,Full Cream Yoghurt 1 kg,0.702,"Almarai Plain Full Fat Fresh Yoghurt, 1kg",7.5,0.702,6281007063067,20,"Unikai Full Cream Curd Dahi, 1kg",5.5,0.712,6291034004001,20,,,,,
+13,PROTEINSWhole Chicken 1.1kg1.1kg,Whole Chicken 1.1 kg,0.6667,"Alyoum Fresh Whole Chicken,1100g",27.75,0.6667,6281101340545,20,"Seara Frozen Chicken Griller, 1.1kg",15.25,0.6447,7894904052677,20,"Al Rawdah Whole Fresh Chicken, 1100g",31.75,0.6537,6291038011005,20
+14,PROTEINSWhole chicken 800g800g,Whole Chicken 800 g,0.8672,"Al Rawdah Fresh Halal Whole Chicken, 800g",23.75,0.8672,6291038008005,20,,,,,,,,,,
+15,CLEANING TOOLS & DISPOSABLESFacial tissue 5's1 x 5pack,Facial Tissue 5 Pack,0.6385,"Masafi Facial Tissues 2Ply, 5x130 Pieces",14.45,0.6385,6291001013616,20,Cool & Cool Facial Tissue,10,0.65,5060068553820,20,Hello Kitty Facial Tissue 1 Box,13.5,0.6293,8033661562459,20
+16,WATERBottle water12 x 500ml,Bottle Water 12 x 500 ml,0.895,"Hello Bottled Drinking Water, 12x500ml",6.95,0.895,2050000333408,20,"Mai Dubai Water, 12 X 500ml",4.95,0.6905,6297000611365,20,"Al Ain Mineral Drinking Water, 12x500ml",6.75,0.6284,6291105811453,20
+17,COFFEECoffee gold200g,Coffee Gold 200 g,0.5319,"Nescafe Gold Dark Roast Instant Soluble Coffee Jar, 190g",51,0.5319,8445290145215,20,,,,,,,,,,
+18,CLEANING TOOLS & DISPOSABLESToilet rolls 10rolls1 x 10pc,Toilet Rolls 10 Pack,0.5662,"Fine Comfort XL Toilet Rolls 2ply (Super Saver), 10x250 tissues",24.5,0.5662,6251001316209,20,"Selpak Comfort Toilet Paper, 4 Rolls",9.75,0.5889,8690530802117,20,"Selpak Soft Toilet Rolls, 8 Rolls",23.5,0.6118,8690530204515,20
+19,SUGARSSugar Granulated 5kg5kg,Sugar Granulated 5 kg,,,,,,,,,,,,,,,,
+20,MILK LONGLIFEFull Fat UHT Milk 1L1L,Full Fat UHT Milk 1 L,0.9142,"Arla Organic Full Fat UHT Milk, 1L",12.75,0.9142,5711953067822,20,"Elle & Vire Uht Full Cream Milk, 1L",12.75,0.676,3451791340399,20,"Almarai Uht Full Fat Milk with Vitamins, 4x1L",22.5,0.825,6281007032391,20
+21,POTATO & ROOTPotato Premium1kg,Potato Premium 1 kg,0.85,"Potato Purple Holland, 1kg",29.95,0.85,2013570000002,20,"Sweet Potato - Australia, 1kg",22.95,0.8444,2031160000003,20,,,,,
+22,CABBAGE & GOURDSCucumber1kg,Cucumber 1 kg,0.877,"Cucumber Yellow - India, 1kg",5.95,0.877,2010030000008,20,"Cucumber Yellow Cooking, 1kg",8.95,0.8654,2003440000003,20,"Namakin Cucumber Jar, 1kg",20,0.8833,6260074400364,20
+23,MILK LONGLIFEMilk Full Fat UHT1L,Milk Full Fat UHT 1 L,0.8745,"Arla Organic Full Fat UHT Milk, 1L",12.75,0.8745,5711953067822,20,"Elle & Vire Uht Full Cream Milk, 1L",12.75,0.649,3451791340399,20,"Almarai Uht Full Fat Milk with Vitamins, 4x1L",22.5,0.8359,6281007032391,20
+24,CLEANING TOOLS & DISPOSABLESKitchen roll 3+11 x 4pack,Kitchen Roll 4 Pack,0.5827,"Kleenex Multipurpose 2Ply Kitchen Towel Rolls, 4x90 Pieces",26.75,0.5827,6281002505869,20,Scott Kitchen Towel 2 Rolls,9.75,0.62,4710114613008,20,"Glad Kitchen Tidy Roll - Medium, 55cmx61cm, 30 Pieces",18.25,0.59,9310050113287,20
+25,PROTEINSWhole chicken 700g700g,Whole Chicken 700 g,0.8923,"Al Rawdah Fresh Whole Chicken, 700g",20.75,0.8923,6291038007008,20,"Daarzood Organic Frozen Chicken Tray Pack, 700g",26.75,0.5974,6297001037010,20,,,,,
+26,CLEANING TOOLS & DISPOSABLESFacial tissue 5's1 x 5pack,Facial Tissue 5 Pack,0.6385,"Masafi Facial Tissues 2Ply, 5x130 Pieces",14.45,0.6385,6291001013616,20,Cool & Cool Facial Tissue,10,0.65,5060068553820,20,Hello Kitty Facial Tissue 1 Box,13.5,0.6293,8033661562459,20
+27,BREADLarge white bread600g,Large White Bread 600 g,0.402,"Yaumi Sliced White Bread, 550g",5.25,0.402,6291106450002,20,,,,,,,,,,
+28,ONION & GARLICOnion Pink1kg,Onion Pink 1 kg,0.5843,"Red Onion Jumbo 60/80 Size Import, 1kg",16.95,0.5843,2003590000007,20,"Onion Shallots, 1kg",15.95,0.6521,2014360000004,20,,,,,
+29,FROZEN VEGETABLESFrench fries1kg,French Fries 1 kg,,,,,,,,,,,,,,,,
+30,POTATO & ROOTCarrot1kg,Carrot 1 kg,1.0,"Carrot, 1kg",7.95,1.0,2012510000003,20,"Carrot Bag, 1kg",7.95,0.9417,0000001381528,20,"Carrot Cake, 1kg",64.75,0.93,2201230000008,20
+31,PASTA & INSTANT FOODElbow500g,Elbow 500 g,0.79,"Barilla Pasta Chifferi Elbows No.41, 500g",16.5,0.79,8076809547956,20,,,,,,,,,,
+32,PASTA & INSTANT FOODPenne rigate500g,Penne Rigate 500 g,0.9333,"Panzani Penne Rigate, 500g",13,0.9333,3038351483804,20,"Barilla Penne Rigate Pasta, 500g",17.5,0.8979,8076802085738,20,"Decceco Penne Rigate Pasta N41, 500g",21.25,0.8788,8001250014344,20
+33,COFFEECoffee gold100g,Coffee Gold 100 g,0.7451,"Nescafe Gold Origins Colombia Premium Instant Soluble Coffee, 100g",34.75,0.7451,5410001005549,20,"Nescafe Espresso Instant Coffee Intensity 7, 100g",34.75,0.5646,7613037067446,20,Nescafe Gold Blend Organic Soluble Coffee Jar 100 g,36,0.5587,7613036300827,20
+34,PASTA & INSTANT FOODSpaghetti500g,Spaghetti 500 g,0.9222,"Panzani Spaghetti, 500g",9.75,0.9222,3038351165007,20,"Barilla Spaghetti No.7, 500g",13.5,0.889,8076808150072,20,"Barilla Pasta Spaghetti No.5, 500g",13.5,0.8585,8076800195057,20
+35,OILCow ghee1kg,Cow Ghee 1 kg,,,,,,,,,,,,,,,,
+36,FRESH JUICESFresh Pomegranate Juice 1 L1L,Fresh Pomegranate Juice 1 L,0.6804,"Lacnor Healthy Living Pomegranate Juice, 1L",8.75,0.6804,6291016111093,20,Rubicon Pomegranate Juice 1 Ltr,14.25,0.7035,064579007631,20,"Barakat Fresh Orange Juice, 1L",24.95,0.6879,6291100931514,20
+37,OILSunflower oil 1 L1L,Sunflower Oil 1 L,0.93,"Lesieur Sunflower Oil, 1L",19,0.93,3265474385009,20,Lesieur  Sunflower Oil 2.L,32.5,0.9061,3265474610002,20,,,,,
+38,CLEANING TOOLS & DISPOSABLESGarbage bags 30gal20bag,Garbage Bags 30 gal 20 Pack,0.19,"Hello Garbage Bag Drawnstrain, 30 Gallon, 20 Pieces",9,0.19,0634240217494,20,,,,,,,,,,
+39,MILK & YOGURTLow Fat Yoghurt 1kg1kg,Low Fat Yoghurt 1 kg,0.9108,"Al Ain Low Fat Fresh Yoghurt, 1kg",7.75,0.9108,6291056067534,20,"Almarai Low Fat Fresh Yogurt, 1kg",7.5,0.7346,6281007024020,20,"Almarai Plain Full Fat Fresh Yoghurt, 1kg",7.5,0.6892,6281007063067,20
+40,CLEANING TOOLS & DISPOSABLESGarbage bags 10gal30bag,Garbage Bags 10 gal 30 Pack,0.1653,"Falcon Black HD Garbage Bag Roll, 54x60cm, 30 Pieces",6.5,0.1653,6291055237174,20,,,,,,,,,,
+41,MILK & YOGURTFull cream milk 1L1L,Full Cream Milk 1 L,0.902,"Elle & Vire Uht Full Cream Milk, 1L",12.75,0.902,3451791340399,20,"Koita Organic Whole Cream Milk, 1L",16.5,0.6392,869712000001,20,"Hayatna Full Cream Long Life Milk, 4x1L",20,0.875,6297001135693,20
+42,CHEESE & BUTTERButter salted200g,Butter Salted 200 g,0.8877,"Elle & Vire Butter Salted 82% Fat, 200g",24.95,0.8877,3161911393210,20,"Marquis Blended Butter 80% Fat Unsalted, 200g",11.25,0.8566,3451790824326,20,"Lurpak Salted Butter, 200g",14.75,0.8779,5740900861305,20
+43,CLEANING TOOLS & DISPOSABLESSoft facial tissue1 x 5pack,Soft Facial Tissue 5 Pack,0.4588,"Kleenex Ultra Soft Tissues 3ply, 5x96 tissues",45,0.4588,6281002508532,20,,,,,,,,,,
+44,CABBAGE & GOURDSCauliflower1kg,Cauliflower 1 kg,0.9125,"Cauliflower Romanesco, 1kg",39.95,0.9125,2011950000000,20,,,,,,,,,,
+45,SAUCES & SEASONINGTomato ketchup500ml,Tomato Ketchup 500 ml,0.2127,Organic Larder Organic Ketchup 500 ml,24.5,0.2127,6291104283527,20,"Puck Tomato Sauce, 500ml",18,0.6612,5711953040603,20,,,,,
+46,FLOURChakki atta5kg,Chakki Atta 5 kg,0.9338,"Dahabi Chakki Atta, 5kg",18.5,0.9338,9501100400086,20,"Al Baker Chakki Fresh Atta, 5kg",14.95,0.8833,6291003611483,20,,,,,
+47,BREADLarge brown bread600g,Large Brown Bread 600 g,,,,,,,,,,,,,,,,
+48,PASTA & INSTANT FOODFusilli500g,Fusilli 500 g,0.9125,"Panzani Fusilli, 500g",13,0.9125,3038351563605,20,"Barilla Pasta Fusilli No.98, 500g",18.75,0.8409,8076802085981,20,"De Cecco Fusilli Pasta, 500g",21.25,0.8654,8001250014368,20
+49,CLEANING TOOLS & DISPOSABLESFacial Tissue 5x2005 x 200pack,Facial Tissue 5 x 200 Pack,0.6411,"Hello 2 Ply Facial Tissues, 5x200 Sheets",16,0.6411,2050000374265,20,Hello Kitty Facial Tissue 1 Box,13.5,0.6333,8033661562459,20,"Masafi Facial Tissues 2Ply, 5x130 Pieces",14.45,0.6302,6291001013616,20
