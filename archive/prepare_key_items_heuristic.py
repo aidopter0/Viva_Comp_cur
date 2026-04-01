@@ -1,7 +1,7 @@
 """
 Unsupported reference: heuristic key_items_prepared.json from key_items.txt.
 
-The supported pipeline uses prepare_key_items_gemini.py -> key_items_prepared_gemini.json.
+The supported pipeline uses gemini_key_items_builder.py -> key_items_prepared_gemini.json.
 Run from repo root: python archive/prepare_key_items_heuristic.py
 """
 from __future__ import annotations
@@ -15,7 +15,7 @@ _ROOT = Path(__file__).resolve().parents[1]
 if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
-from key_items_text import (
+from key_item_line_parse import (
     build_prepared_query_fields,
     glue_weights_in_text,
     parse_line,

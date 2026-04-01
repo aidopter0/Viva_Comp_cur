@@ -1,7 +1,7 @@
 """
-Shared text parsing and normalization for key-item lines (used by prepare_key_items_gemini.py).
+Parse and normalize raw catalog key-item lines (category prefixes, weights, hints).
 
-Heuristic batch builder lives in archive/prepare_key_items_heuristic.py.
+Used by gemini_key_items_builder.py. Heuristic archive: archive/prepare_key_items_heuristic.py.
 """
 from __future__ import annotations
 

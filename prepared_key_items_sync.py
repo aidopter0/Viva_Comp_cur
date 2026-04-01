@@ -1,7 +1,7 @@
 """
-Ensure config/key_items_prepared_gemini.json is up to date with config/key_items.txt.
+Keep config/key_items_prepared_gemini.json in sync with config/key_items.txt (hash gate).
 
-Uses config/.key_items_source.sha256 to skip regeneration when the source file is unchanged.
+Uses config/.key_items_source.sha256. Invoked from run_talabat_stores; JSON build: gemini_key_items_builder.run_gemini_prepare.
 """
 from __future__ import annotations
 
@@ -92,13 +92,13 @@ def ensure_key_items_gemini_json(
             "Key items need regeneration (config/key_items.txt changed or "
             f"{GEMINI_JSON} missing) but no API key is set.\n"
             "Set GOOGLE_API_KEY or GEMINI_API_KEY in env/.env, or run:\n"
-            "  python prepare_key_items_gemini.py\n"
+            "  python gemini_key_items_builder.py\n"
             "Or pass --skip-key-items-prep if the Gemini JSON is already correct.",
             file=sys.stderr,
         )
         sys.exit(1)
 
-    from prepare_key_items_gemini import run_gemini_prepare
+    from gemini_key_items_builder import run_gemini_prepare
 
     m = model or os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview")
     run_gemini_prepare(KEY_ITEMS_TXT, GEMINI_JSON, model=m, dry_run=False)

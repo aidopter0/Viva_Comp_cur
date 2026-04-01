@@ -29,7 +29,7 @@ from cleanup_and_rank import (
     store_safe_label,
     _write_reranked_csv,
 )
-from key_items_prep import ensure_key_items_gemini_json, load_dotenv_if_present
+from prepared_key_items_sync import ensure_key_items_gemini_json, load_dotenv_if_present
 from talabat_extract import resolve_fetch_delays
 from talabat_extract import run as run_extract
 
@@ -46,7 +46,7 @@ def main() -> None:
         "--key-items",
         type=Path,
         default=DEFAULT_KEY_ITEMS,
-        help="Prepared JSON from prepare_key_items_gemini.py (default: config/key_items_prepared_gemini.json)",
+        help="Prepared JSON from gemini_key_items_builder.py (default: config/key_items_prepared_gemini.json)",
     )
     ap.add_argument("--stores-json", type=Path, default=STORES_JSON)
     ap.add_argument("--out-dir", type=Path, default=DEFAULT_OUT_DIR)
