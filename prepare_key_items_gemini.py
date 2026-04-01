@@ -2,7 +2,7 @@
 Build config/key_items_prepared_gemini.json: LLM-cleaned search_query + label per line
 via one Gemini batch call (deterministic JSON).
 
-Uses parse_line + search_synonym_for_row from prepare_key_items.py (no circular imports).
+Uses parse_line + search_synonym_for_row from key_items_text.py.
 
 Examples:
   python prepare_key_items_gemini.py
@@ -19,7 +19,8 @@ import sys
 import time
 from pathlib import Path
 
-from prepare_key_items import glue_weights_in_text, normalize_for_compare, parse_line, search_synonym_for_row
+from key_items_prep import HASH_FILE, KEY_ITEMS_TXT, write_stored_hash
+from key_items_text import glue_weights_in_text, normalize_for_compare, parse_line, search_synonym_for_row
 
 DEFAULT_INPUT = Path("config/key_items.txt")
 DEFAULT_OUTPUT = Path("config/key_items_prepared_gemini.json")
@@ -268,6 +269,9 @@ def main() -> None:
         sys.exit(1)
 
     print(f"Wrote {len(rows)} rows to {args.output}", flush=True)
+    if args.input.resolve() == KEY_ITEMS_TXT.resolve():
+        write_stored_hash()
+        print(f"Updated {HASH_FILE} (hash for key_items.txt).", flush=True)
 
 
 if __name__ == "__main__":

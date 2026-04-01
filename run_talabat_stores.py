@@ -1,9 +1,11 @@
 """
 Run the full pipeline for all stores in config/talabat_stores.json:
+
+  0. (optional) Regenerate config/key_items_prepared_gemini.json when key_items.txt changed
   1. EXTRACT: fetch raw product data per store (talabat_extract.py)
   2. CLEANUP: score, rank, write CSV, append consolidated (cleanup_and_rank.py)
-  3. DASHBOARD: rebuild consolidated_dashboard.csv
-  4. Optional: Gemini reranking
+  3. DASHBOARD: rebuild consolidated_dashboard.csv (or defer until after Gemini when rerank is on)
+  4. Gemini reranking (default on) and consolidated append from reranked CSV when enabled
 
 Use --parallel-stores N and/or --fast to reduce wall time.
 Re-run anytime; consolidated file grows with each run (new extraction_date).
@@ -12,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
@@ -21,16 +24,19 @@ from cleanup_and_rank import (
     append_consolidated,
     load_stores,
     rebuild_dashboard_slice,
+    rerank_file,
     score_and_rank_store,
     store_safe_label,
+    _write_reranked_csv,
 )
+from key_items_prep import ensure_key_items_gemini_json, load_dotenv_if_present
 from talabat_extract import resolve_fetch_delays
 from talabat_extract import run as run_extract
 
 CONSOLIDATED_CSV = Path("output/consolidated_pricing.csv")
 DASHBOARD_CSV = Path("output/consolidated_dashboard.csv")
 STORES_JSON = Path("config/talabat_stores.json")
-DEFAULT_KEY_ITEMS = Path("config/key_items_prepared.json")
+DEFAULT_KEY_ITEMS = Path("config/key_items_prepared_gemini.json")
 DEFAULT_OUT_DIR = Path("output/stores")
 
 
@@ -40,7 +46,7 @@ def main() -> None:
         "--key-items",
         type=Path,
         default=DEFAULT_KEY_ITEMS,
-        help="Prepared JSON from prepare_key_items.py",
+        help="Prepared JSON from prepare_key_items_gemini.py (default: config/key_items_prepared_gemini.json)",
     )
     ap.add_argument("--stores-json", type=Path, default=STORES_JSON)
     ap.add_argument("--out-dir", type=Path, default=DEFAULT_OUT_DIR)
@@ -50,11 +56,23 @@ def main() -> None:
     ap.add_argument("--min-ratio", type=float, default=0.55)
     ap.add_argument("--top-k", type=int, default=3)
     ap.add_argument(
-        "--gemini-after",
-        action="store_true",
-        help="Run Gemini reranking after scoring",
+        "--no-gemini-after",
+        dest="gemini_after",
+        action="store_false",
+        help="Skip Gemini reranking after scoring (default: run rerank when API key is set)",
     )
+    ap.set_defaults(gemini_after=True)
     ap.add_argument("--gemini-rerank-all", action="store_true")
+    ap.add_argument(
+        "--skip-key-items-prep",
+        action="store_true",
+        help="Do not auto-regenerate key_items_prepared_gemini.json from key_items.txt",
+    )
+    ap.add_argument(
+        "--force-key-items-prep",
+        action="store_true",
+        help="Always regenerate key_items_prepared_gemini.json before extract",
+    )
     ap.add_argument(
         "--parallel-stores",
         type=int,
@@ -66,6 +84,10 @@ def main() -> None:
     ap.add_argument("--query-delay", type=float, default=None)
     ap.add_argument("--line-delay", type=float, default=None)
     args = ap.parse_args()
+
+    load_dotenv_if_present()
+
+    ensure_key_items_gemini_json(skip=args.skip_key_items_prep, force=args.force_key_items_prep)
 
     if not args.key_items.is_file():
         print(f"File not found: {args.key_items}", file=sys.stderr)
@@ -130,23 +152,28 @@ def main() -> None:
             min_ratio=args.min_ratio,
             top_k=max(1, args.top_k),
         )
-        append_consolidated(args.consolidated, label, extraction_date, scored_csv)
+        if not args.gemini_after:
+            append_consolidated(args.consolidated, label, extraction_date, scored_csv)
         print(f"[{label}] scored -> {scored_csv}", flush=True)
 
-    # ── Step 3: Dashboard ──────────────────────────────────────────
+    # ── Step 3: Dashboard (skip intermediate rebuild if Gemini rerank will refresh) ─
 
-    n_dash = rebuild_dashboard_slice(args.out_dir, args.stores_json, args.dashboard_csv, extraction_date)
-    print(f"Dashboard {args.dashboard_csv}: {n_dash} rows for {extraction_date}.", flush=True)
+    if not args.gemini_after:
+        n_dash = rebuild_dashboard_slice(
+            args.out_dir, args.stores_json, args.dashboard_csv, extraction_date
+        )
+        print(f"Dashboard {args.dashboard_csv}: {n_dash} rows for {extraction_date}.", flush=True)
 
-    # ── Step 4: Optional Gemini rerank ─────────────────────────────
+    # ── Step 4: Gemini rerank (default) ────────────────────────────
 
     if args.gemini_after:
-        import os
-        from cleanup_and_rank import rerank_file, _write_reranked_csv
-
         api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
         if not api_key:
-            print("Missing Gemini API key.", file=sys.stderr)
+            print(
+                "Gemini rerank is on by default but no GOOGLE_API_KEY or GEMINI_API_KEY is set. "
+                "Use --no-gemini-after to skip reranking, or set an API key.",
+                file=sys.stderr,
+            )
             sys.exit(1)
         try:
             from google import genai
@@ -162,9 +189,13 @@ def main() -> None:
             if not scored_json.is_file():
                 continue
             data = rerank_file(
-                scored_json, client, model,
-                score_below=0.75, chunk_size=25,
-                dry_run=False, rerank_all=args.gemini_rerank_all,
+                scored_json,
+                client,
+                model,
+                score_below=0.75,
+                chunk_size=25,
+                dry_run=False,
+                rerank_all=args.gemini_rerank_all,
             )
             rr_json = scored_json.with_name(f"{safe}.reranked.json")
             rr_json.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -172,8 +203,17 @@ def main() -> None:
             _write_reranked_csv(data, rr_csv)
             print(f"  Wrote {rr_json} and {rr_csv}", flush=True)
 
-        n_dash = rebuild_dashboard_slice(args.out_dir, args.stores_json, args.dashboard_csv, extraction_date)
-        print(f"Dashboard rebuilt: {n_dash} rows for {extraction_date}.", flush=True)
+        for entry in stores:
+            label = entry["label"]
+            safe = store_safe_label(label)
+            rr_csv = args.out_dir / f"{safe}.reranked.csv"
+            if rr_csv.is_file():
+                append_consolidated(args.consolidated, label, extraction_date, rr_csv)
+
+        n_dash = rebuild_dashboard_slice(
+            args.out_dir, args.stores_json, args.dashboard_csv, extraction_date
+        )
+        print(f"Dashboard {args.dashboard_csv}: {n_dash} rows for {extraction_date} (after Gemini rerank).", flush=True)
 
     print(f"Done. Extraction date: {extraction_date}", flush=True)
 

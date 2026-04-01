@@ -1,20 +1,11 @@
 """
-One-time setup (re-run when config/key_items.txt changes):
+Shared text parsing and normalization for key-item lines (used by prepare_key_items_gemini.py).
 
-  Reads raw category-prefixed lines, normalises text, builds search queries
-  (hints, alternates, glue canonicalization), and writes
-  config/key_items_prepared.json.
-
-  Extract and cleanup scripts load only the prepared JSON.
-  No imports from talabat_extract or cleanup_and_rank.
+Heuristic batch builder lives in archive/prepare_key_items_heuristic.py.
 """
 from __future__ import annotations
 
-import argparse
-import json
 import re
-import sys
-from pathlib import Path
 
 # ── Category prefix strip ──────────────────────────────────────────
 
@@ -53,7 +44,7 @@ def strip_category(line: str) -> str:
     s = line.strip()
     for cat in CATEGORIES:
         if s.startswith(cat):
-            return s[len(cat):].lstrip()
+            return s[len(cat) :].lstrip()
     return s
 
 
@@ -178,7 +169,7 @@ def match_catalog_hints(expected: str) -> tuple[str, list[str]]:
     return expected, []
 
 
-# ── Build prepared fields ──────────────────────────────────────────
+# ── Build prepared fields (heuristic pipeline only) ───────────────
 
 def build_prepared_query_fields(expected: str, q: str) -> tuple[str, list[str]]:
     """Build ``match_against`` and ``search_queries`` with glue canonicalization."""
@@ -187,45 +178,3 @@ def build_prepared_query_fields(expected: str, q: str) -> tuple[str, list[str]]:
     hint_queries = [glue_weights_in_text(h) for h in hint_queries]
     queries = dedupe_queries(hint_queries + alternate_queries(q))
     return match_against, queries
-
-
-# ── CLI ────────────────────────────────────────────────────────────
-
-DEFAULT_INPUT = Path("config/key_items.txt")
-DEFAULT_OUTPUT = Path("config/key_items_prepared.json")
-
-
-def main() -> None:
-    ap = argparse.ArgumentParser(description="Build key_items_prepared.json from key_items.txt")
-    ap.add_argument("--input", type=Path, default=DEFAULT_INPUT)
-    ap.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
-    args = ap.parse_args()
-
-    if not args.input.is_file():
-        print(f"File not found: {args.input}", file=sys.stderr)
-        sys.exit(1)
-
-    lines = [ln.strip() for ln in args.input.read_text(encoding="utf-8").splitlines() if ln.strip()]
-    out: list[dict] = []
-    for i, raw in enumerate(lines, 1):
-        expected, q = parse_line(raw)
-        _, search_queries = build_prepared_query_fields(expected, q)
-        search_query = search_queries[0] if search_queries else glue_weights_in_text(q)
-        row: dict = {
-            "line": i,
-            "raw": raw,
-            "search_query": search_query,
-            "label": search_query,
-        }
-        syn = search_synonym_for_row(expected)
-        if syn:
-            row["search_synonym"] = syn
-        out.append(row)
-
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Wrote {len(out)} rows to {args.output}", flush=True)
-
-
-if __name__ == "__main__":
-    main()

@@ -1,12 +1,11 @@
 """
 Extract raw product data from Talabat via the public nextApi search endpoint.
 
-Reads config/key_items_prepared.json (from prepare_key_items.py), runs first-page
-HTTP search for each line's search_query, merges results by product id, and
-writes per-store raw JSON.
+Reads a prepared key-items JSON (default: config/key_items_prepared_gemini.json),
+runs first-page HTTP search for each line's search_query, merges results by product id,
+and writes per-store raw JSON.
 
 No scoring, no ranking, no CSV — cleanup_and_rank.py handles that.
-No imports from prepare_key_items or cleanup_and_rank.
 """
 from __future__ import annotations
 
@@ -27,11 +26,11 @@ COUNTRY_ID_UAE = "4"
 # ── JSON loader ────────────────────────────────────────────────────
 
 def load_prepared_key_items(path: Path) -> list[dict]:
-    """Load config/key_items_prepared.json."""
+    """Load prepared key-items JSON (e.g. key_items_prepared_gemini.json)."""
     if path.suffix.lower() == ".txt":
         raise ValueError(
             "Extract expects prepared JSON, not raw key_items.txt. "
-            "Run: python prepare_key_items.py"
+            "Run: python prepare_key_items_gemini.py"
         )
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, list) or not data:
@@ -41,7 +40,7 @@ def load_prepared_key_items(path: Path) -> list[dict]:
             raise ValueError(f"Each prepared row must be an object: {path}")
         for k in ("line", "raw", "search_query", "label"):
             if k not in row:
-                raise ValueError(f"Prepared row missing key {k!r} (run prepare_key_items.py): {path}")
+                raise ValueError(f"Prepared row missing key {k!r} (run prepare_key_items_gemini.py): {path}")
         sq = row["search_query"]
         if not isinstance(sq, str) or not sq.strip():
             raise ValueError(f"Prepared row search_query must be a non-empty string: {path}")
@@ -163,7 +162,7 @@ def main() -> None:
     ap.add_argument(
         "--key-items",
         type=Path,
-        default=Path("config/key_items_prepared.json"),
+        default=Path("config/key_items_prepared_gemini.json"),
     )
     ap.add_argument("--out-json", type=Path, default=Path("output/key_items_raw.json"))
     ap.add_argument("--store-uuid", default=DEFAULT_STORE_UUID)

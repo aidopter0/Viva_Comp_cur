@@ -4,7 +4,6 @@ Cleanup, scoring, ranking, optional Gemini reranking, and dashboard consolidatio
 Reads per-store raw JSON from talabat_extract.py, applies similarity scoring,
 narrow filters, writes per-store CSV/JSON, and rebuilds the consolidated dashboard.
 
-Imports match_catalog_hints from prepare_key_items (for Gemini re-scoring context).
 No imports from talabat_extract.
 """
 from __future__ import annotations
