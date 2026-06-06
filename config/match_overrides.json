@@ -1,0 +1,553 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 4,
+      "action": "slug",
+      "product_slug": "freshly-pick-sweet-corn-china-340g/s/6299200032957",
+      "note": "Migrated from apply_viva_url_corrections L4"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 4,
+      "action": "slug",
+      "product_slug": "freshly-pick-sweet-corn-china-340g/s/6299200032957",
+      "note": "Migrated from apply_viva_url_corrections L4"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 6,
+      "action": "slug",
+      "product_slug": "milba-butter-unsalted-germany-200g/s/6299200031905",
+      "note": "Migrated from apply_viva_url_corrections L6"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 8,
+      "action": "slug",
+      "product_slug": "milba-full-cream-natural-yoghurt-uae-1kg/s/6299200051545",
+      "note": "Migrated from apply_viva_url_corrections L8"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 11,
+      "action": "slug",
+      "product_slug": "eatistaan-chakki-atta-uae-5kg/s/6299200053136",
+      "note": "Migrated from apply_viva_url_corrections L11"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 12,
+      "action": "slug",
+      "product_slug": "milba-milk-uht-full-fat-original-germany-1l/s/6299200005708",
+      "note": "Migrated from apply_viva_url_corrections L12"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 12,
+      "action": "slug",
+      "product_slug": "milba-milk-uht-full-fat-original-germany-1l/s/6299200005708",
+      "note": "Migrated from apply_viva_url_corrections L12"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 13,
+      "action": "missing",
+      "note": "Viva L13 explicit missing"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 13,
+      "action": "missing",
+      "note": "Viva L13 explicit missing"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 16,
+      "action": "slug",
+      "product_slug": "ama-basmati-rice-india-5kg/s/6299200046749",
+      "note": "Migrated from apply_viva_url_corrections L16"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 21,
+      "action": "slug",
+      "product_slug": "qualiko-frozen-whole-chicken-ukraine-1000g/s/4820107353283",
+      "note": "Migrated from apply_viva_url_corrections L21"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 21,
+      "action": "slug",
+      "product_slug": "qualiko-frozen-whole-chicken-ukraine-1000g/s/4820107353283",
+      "note": "Migrated from apply_viva_url_corrections L21"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 26,
+      "action": "slug",
+      "product_slug": "lemon-bag-egypt-1kg/s/6299200049511",
+      "note": "Migrated from apply_viva_url_corrections L26"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 27,
+      "action": "slug",
+      "product_slug": "orange-500g/s/101645",
+      "note": "Migrated from apply_viva_url_corrections L27"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 28,
+      "action": "missing",
+      "note": "Viva L28 explicit missing"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 28,
+      "action": "missing",
+      "note": "Viva L28 explicit missing"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 29,
+      "action": "slug",
+      "product_slug": "cipri-fresh-orange-juice-bottle-uae-1l/s/6299200048651",
+      "note": "Migrated from apply_viva_url_corrections L29"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 30,
+      "action": "slug",
+      "product_slug": "tender-chicken-breast-uae-400g/s/112320",
+      "note": "Migrated from apply_viva_url_corrections L30"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 31,
+      "action": "slug",
+      "product_slug": "dpollo-chilled-fresh-whole-chicken-uae-900g/s/6299200046343",
+      "note": "Migrated from apply_viva_url_corrections L31"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 31,
+      "action": "slug",
+      "product_slug": "dpollo-chilled-fresh-whole-chicken-uae-900g/s/6299200046343",
+      "note": "Migrated from apply_viva_url_corrections L31"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 32,
+      "action": "slug",
+      "product_slug": "beef-mince-brazil-500g/s/106443",
+      "note": "Migrated from apply_viva_url_corrections L32"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 32,
+      "action": "slug",
+      "product_slug": "beef-mince-brazil-500g/s/106443",
+      "note": "Migrated from apply_viva_url_corrections L32"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 34,
+      "action": "slug",
+      "product_slug": "white-cabbage-iran-1kg/s/101625",
+      "note": "Migrated from apply_viva_url_corrections L34"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 35,
+      "action": "slug",
+      "product_slug": "onion-pink-500g/s/101654",
+      "note": "Migrated from apply_viva_url_corrections L35"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 37,
+      "action": "slug",
+      "product_slug": "potato-premium-1kg/s/103555",
+      "note": "Migrated from apply_viva_url_corrections L37"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 38,
+      "action": "slug",
+      "product_slug": "carrot-bag-australia-1kg/s/9323676000022",
+      "note": "Migrated from apply_viva_url_corrections L38"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 39,
+      "action": "slug",
+      "product_slug": "tomato-500g/s/101837",
+      "note": "Migrated from apply_viva_url_corrections L39"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 39,
+      "action": "slug",
+      "product_slug": "tomato-500g/s/101837",
+      "note": "Migrated from apply_viva_url_corrections L39"
+    },
+    {
+      "brand_name": "Lulu",
+      "store_label": "LuLu Hypermarket, Dubai Motor City",
+      "line_no": 12,
+      "action": "slug",
+      "product_slug": "lulu-uht-long-life-full-fat-milk-4x1l/s/2226395_CH1"
+    },
+    {
+      "brand_name": "Lulu",
+      "store_label": "Lulu Hypermarket, Muhaisnah 4",
+      "line_no": 12,
+      "action": "slug",
+      "product_slug": "lulu-uht-long-life-full-fat-milk-4x1l/s/2226395_CH1"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Al Muteena",
+      "line_no": 12,
+      "action": "slug",
+      "product_slug": "meggle-uht-full-fat-milk-1l/s/101395_8585002505071"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Jumeirah Beach Residence - JBR",
+      "line_no": 12,
+      "action": "slug",
+      "product_slug": "meggle-uht-full-fat-milk-1l/s/101395_8585002505071"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 13,
+      "action": "missing",
+      "note": "Hayatna UHT not in Viva catalog"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "Viva Supermarket, Muraqqabat",
+      "line_no": 13,
+      "action": "missing",
+      "note": "Hayatna UHT not in Viva catalog"
+    },
+    {
+      "brand_name": "Carrefour",
+      "store_label": "Carrefour, Century Mall",
+      "line_no": 13,
+      "action": "missing",
+      "note": "Hayatna UHT milk not in Carrefour catalog"
+    },
+    {
+      "brand_name": "Lulu",
+      "store_label": "LuLu Hypermarket, Dubai Motor City",
+      "line_no": 13,
+      "action": "missing",
+      "note": "Hayatna UHT milk not in Lulu catalog"
+    },
+    {
+      "brand_name": "Lulu",
+      "store_label": "Lulu Hypermarket, Muhaisnah 4",
+      "line_no": 13,
+      "action": "missing",
+      "note": "Hayatna UHT milk not in Lulu catalog"
+    },
+    {
+      "brand_name": "GALA",
+      "store_label": "Gala Supermarket Karama",
+      "line_no": 13,
+      "action": "missing",
+      "note": "Shirin Asal UHT not in catalog"
+    },
+    {
+      "brand_name": "GALA",
+      "store_label": "Gala Supermarket, Al Barari",
+      "line_no": 13,
+      "action": "missing",
+      "note": "Shirin Asal UHT not in catalog"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Al Muteena",
+      "line_no": 13,
+      "action": "missing",
+      "note": "Al Ain UHT milk not in Sava catalog"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Jumeirah Beach Residence - JBR",
+      "line_no": 13,
+      "action": "missing",
+      "note": "Al Ain UHT milk not in Sava catalog"
+    },
+    {
+      "brand_name": "Carrefour",
+      "store_label": "Carrefour, Century Mall",
+      "line_no": 21,
+      "action": "slug",
+      "product_slug": "qualiko-frozen-whole-chicken-ukraine-1000g/s/1428633_4820107353283"
+    },
+    {
+      "brand_name": "GALA",
+      "store_label": "Gala Supermarket Karama",
+      "line_no": 21,
+      "action": "slug",
+      "product_slug": "qualiko-frozen-whole-chicken-ukraine-1100g/s/4820107353290"
+    },
+    {
+      "brand_name": "Lulu",
+      "store_label": "Lulu Hypermarket, Muhaisnah 4",
+      "line_no": 21,
+      "action": "slug",
+      "product_slug": "qualiko-frozen-whole-chicken-ukraine-1000g/s/1567068_EA",
+      "note": "Qualiko frozen L21"
+    },
+    {
+      "brand_name": "Carrefour",
+      "store_label": "Carrefour, Century Mall",
+      "line_no": 12,
+      "action": "slug",
+      "product_slug": "carrefour-long-life-uht-full-fat-milk-1l/s/2190706_6290361531525",
+      "note": "Carrefour long-life UHT 1L"
+    },
+    {
+      "brand_name": "GALA",
+      "store_label": "Gala Supermarket Karama",
+      "line_no": 12,
+      "action": "missing",
+      "note": "Safa UHT not in Karama catalog"
+    },
+    {
+      "brand_name": "GALA",
+      "store_label": "Gala Supermarket, Al Barari",
+      "line_no": 12,
+      "action": "slug",
+      "product_slug": "al-safa-long-life-full-fat-milk-4-pieces/s/6291044170413",
+      "note": "Safa UHT 4x"
+    },
+    {
+      "brand_name": "Lulu",
+      "store_label": "LuLu Hypermarket, Dubai Motor City",
+      "line_no": 21,
+      "action": "slug",
+      "product_slug": "sadia-frozen-grade-a-whole-griller-chicken-1kg/s/127965_EA",
+      "note": "Frozen whole chicken"
+    },
+    {
+      "brand_name": "Lulu",
+      "store_label": "LuLu Hypermarket, Dubai Motor City",
+      "line_no": 32,
+      "action": "missing",
+      "note": "No Lulu beef mince in catalog"
+    },
+    {
+      "brand_name": "GALA",
+      "store_label": "Gala Supermarket, Al Barari",
+      "line_no": 21,
+      "action": "missing",
+      "note": "Qualiko not in Al Barari catalog"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Al Muteena",
+      "line_no": 21,
+      "action": "missing",
+      "note": "No whole chicken SKU"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Jumeirah Beach Residence - JBR",
+      "line_no": 21,
+      "action": "missing",
+      "note": "No whole chicken SKU"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Al Muteena",
+      "line_no": 30,
+      "action": "missing",
+      "note": "No tender breast SKU"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Jumeirah Beach Residence - JBR",
+      "line_no": 30,
+      "action": "missing",
+      "note": "No tender breast SKU"
+    },
+    {
+      "brand_name": "GALA",
+      "store_label": "Gala Supermarket, Al Barari",
+      "line_no": 31,
+      "action": "missing",
+      "note": "No whole chicken SKU"
+    },
+    {
+      "brand_name": "Lulu",
+      "store_label": "LuLu Hypermarket, Dubai Motor City",
+      "line_no": 31,
+      "action": "missing",
+      "note": "No mapped whole chicken SKU"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Al Muteena",
+      "line_no": 31,
+      "action": "missing",
+      "note": "No whole chicken SKU"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Jumeirah Beach Residence - JBR",
+      "line_no": 31,
+      "action": "missing",
+      "note": "No whole chicken SKU"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 30,
+      "action": "slug",
+      "product_slug": "tender-chicken-breast-uae-400g/s/112320",
+      "note": "D'Pollo tender breast"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 31,
+      "action": "missing",
+      "note": "D'Pollo whole chicken not in Arjan catalog"
+    },
+    {
+      "brand_name": "Viva",
+      "store_label": "VIVA Supermarket, Arjan 2",
+      "line_no": 32,
+      "action": "missing",
+      "note": "Beef mince not in Arjan catalog"
+    },
+    {
+      "brand_name": "Carrefour",
+      "store_label": "Carrefour, Century Mall",
+      "line_no": 28,
+      "action": "slug",
+      "product_slug": "watermelon-5kg/s/1674816_2141846000002"
+    },
+    {
+      "brand_name": "GALA",
+      "store_label": "Gala Supermarket Karama",
+      "line_no": 28,
+      "action": "slug",
+      "product_slug": "watermelon-approx-3kg-4kg/s/9100009196825"
+    },
+    {
+      "brand_name": "GALA",
+      "store_label": "Gala Supermarket, Al Barari",
+      "line_no": 28,
+      "action": "slug",
+      "product_slug": "watermelon-approx-3kg-4kg/s/9100009196825"
+    },
+    {
+      "brand_name": "Lulu",
+      "store_label": "LuLu Hypermarket, Dubai Motor City",
+      "line_no": 28,
+      "action": "slug",
+      "product_slug": "watermelon-kiran-india-1kg/s/1411290_KG"
+    },
+    {
+      "brand_name": "Lulu",
+      "store_label": "Lulu Hypermarket, Muhaisnah 4",
+      "line_no": 28,
+      "action": "slug",
+      "product_slug": "watermelon-kiran-india-1kg/s/1411290_KG"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Al Muteena",
+      "line_no": 28,
+      "action": "missing",
+      "note": "No whole watermelon SKU in catalog"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Jumeirah Beach Residence - JBR",
+      "line_no": 28,
+      "action": "missing",
+      "note": "No whole watermelon SKU in catalog"
+    },
+    {
+      "brand_name": "Lulu",
+      "store_label": "Lulu Hypermarket, Muhaisnah 4",
+      "line_no": 31,
+      "action": "slug",
+      "product_slug": "lulu-fresh-whole-chicken-1kg/s/423891_EA"
+    },
+    {
+      "brand_name": "Carrefour",
+      "store_label": "Carrefour, Century Mall",
+      "line_no": 31,
+      "action": "slug",
+      "product_slug": "al-ain-farms-fresh-chicken-whole-900g/s/268584_6291056400577",
+      "note": "Tanmiah proxy: Al Ain whole"
+    },
+    {
+      "brand_name": "GALA",
+      "store_label": "Gala Supermarket Karama",
+      "line_no": 31,
+      "action": "slug",
+      "product_slug": "fresh-chicken-whole-1kg/s/9490942"
+    },
+    {
+      "brand_name": "Carrefour",
+      "store_label": "Carrefour, Century Mall",
+      "line_no": 32,
+      "action": "slug",
+      "product_slug": "beef-mince-brazil-500g/s/909662_2132020000000"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Al Muteena",
+      "line_no": 32,
+      "action": "slug",
+      "product_slug": "butchero-chilled-beef-mince-500g/s/101940_6294017518427"
+    },
+    {
+      "brand_name": "Sava",
+      "store_label": "SAVA Supermarket, Jumeirah Beach Residence - JBR",
+      "line_no": 32,
+      "action": "slug",
+      "product_slug": "butchero-chilled-beef-mince-500g/s/101940_6294017518427"
+    }
+  ]
+}

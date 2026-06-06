@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "lines": {
+    "12": {
+      "require_tokens_any": ["uht", "long life", "longlife"],
+      "forbid_tokens": ["juice", "yogurt", "yoghurt"],
+      "require_brand_in_title": true
+    },
+    "13": {
+      "allow_missing": true,
+      "forbid_tokens": ["milba", "juice"]
+    },
+    "21": {
+      "require_tokens_any": ["whole", "chicken"],
+      "forbid_tokens": ["breast", "fillet"]
+    },
+    "28": {
+      "require_tokens_any": ["watermelon"],
+      "forbid_tokens": ["jelly", "juice", "candy", "gummy", "chewing", "gum"]
+    },
+    "30": {
+      "require_tokens_any": ["chicken"],
+      "forbid_tokens": ["whole"]
+    },
+    "31": {
+      "require_tokens_any": ["whole", "chicken"],
+      "forbid_tokens": ["breast", "fillet"]
+    },
+    "32": {
+      "require_tokens_any": ["mince", "beef"],
+      "forbid_tokens": ["chicken"]
+    }
+  },
+  "brand_lines": {
+    "Viva": {
+      "12": {"require_tokens_any": ["milba", "uht", "long life"]},
+      "13": {"allow_missing": true},
+      "21": {"require_tokens_any": ["qualiko", "frozen"]},
+      "28": {"allow_missing": true},
+      "31": {"require_tokens_any": ["dpollo", "whole"]},
+      "32": {"require_tokens_any": ["beef", "mince"]}
+    }
+  }
+}

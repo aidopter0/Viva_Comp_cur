@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "lines": {
+    "12": "own_brand",
+    "13": "outside_brand"
+  },
+  "label_prefixes": {
+    "own_brand": "Own Brand",
+    "outside_brand": "Brand"
+  }
+}
